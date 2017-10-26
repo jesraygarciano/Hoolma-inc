@@ -1,0 +1,2140 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 13, ../sass/screen.scss */
+html {
+  font: 1em 'Poppins' !important;
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 19, ../sass/screen.scss */
+body {
+  padding-top: 5.5rem;
+  margin-bottom: 60px;
+  color: #5a5a5a;
+  /*NAVBAR EDIT HERE*/
+  /*END OF NAVBAR*/
+  /* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+  /*-----END OF CAROUSEL-----*/
+  /*CONSULT US*/
+  /*END CONSULT US*/
+  /* MARKETING CONTENT
+-------------------------------------------------- */
+  /* Center align the text within the three columns below the carousel */
+}
+/* line 23, ../sass/screen.scss */
+body #blog-unlock {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 1rem;
+  background-color: #eb3719;
+  color: #ffffff;
+}
+/* line 30, ../sass/screen.scss */
+body #hoolma-blog {
+  width: 100%;
+  padding: 1rem 1rem;
+}
+/* line 33, ../sass/screen.scss */
+body #hoolma-blog .blog-post {
+  margin: 2rem auto;
+}
+/* line 35, ../sass/screen.scss */
+body #hoolma-blog .blog-post .blog-author {
+  /*width: 35%;*/
+  vertical-align: top;
+  display: inline-block;
+}
+/* line 39, ../sass/screen.scss */
+body #hoolma-blog .blog-post .blog-author img {
+  width: 100%;
+}
+/* line 43, ../sass/screen.scss */
+body #hoolma-blog .blog-post .blog-article {
+  overflow: hidden;
+  /*width: 64%;*/
+  vertical-align: top;
+  display: inline-block;
+  height: inherit;
+}
+/* line 49, ../sass/screen.scss */
+body #hoolma-blog .blog-post .blog-article .blog-sub {
+  margin: 5px 0;
+}
+/* line 51, ../sass/screen.scss */
+body #hoolma-blog .blog-post .blog-article .blog-sub i {
+  margin-right: 5px;
+}
+/* line 54, ../sass/screen.scss */
+body #hoolma-blog .blog-post .blog-article .blog-sub a {
+  font-weight: 600;
+}
+/* line 57, ../sass/screen.scss */
+body #hoolma-blog .blog-post .blog-article .blog-sub a:hover {
+  text-decoration: none;
+  color: #eb3719;
+}
+/* line 61, ../sass/screen.scss */
+body #hoolma-blog .blog-post .blog-article .blog-sub .author {
+  margin-right: 10px;
+}
+/* line 64, ../sass/screen.scss */
+body #hoolma-blog .blog-post .blog-article .blog-sub .v-separator {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #1c1c1c;
+  width: 1px;
+  height: 25px;
+  margin: 0 1rem;
+}
+/* line 72, ../sass/screen.scss */
+body #hoolma-blog .blog-post .blog-article .blog-sub .categories {
+  display: inline-block;
+}
+/* line 74, ../sass/screen.scss */
+body #hoolma-blog .blog-post .blog-article .blog-sub .categories .category {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0.75em;
+}
+/* line 79, ../sass/screen.scss */
+body #hoolma-blog .blog-post .blog-article .blog-sub .categories .category:hover {
+  text-decoration: none;
+}
+/* line 84, ../sass/screen.scss */
+body #hoolma-blog .blog-post .blog-article h2 {
+  font: 600 1.5em 'Poppins';
+}
+/* line 87, ../sass/screen.scss */
+body #hoolma-blog .blog-post .blog-article article {
+  font-size: 0.85em;
+  overflow: hidden;
+}
+/* line 98, ../sass/screen.scss */
+body #nav-main div button:focus {
+  outline: none;
+}
+/* line 103, ../sass/screen.scss */
+body #nav-main div div ul li {
+  font: 500 1em 'Poppins';
+}
+/* line 105, ../sass/screen.scss */
+body #nav-main div div ul li a:hover {
+  text-decoration: none;
+  color: #eb3719;
+}
+/* line 110, ../sass/screen.scss */
+body #nav-main div div ul li .dropdown-menu a {
+  font: 500 1em 'Poppins';
+  color: #c3c3c3;
+}
+/* line 114, ../sass/screen.scss */
+body #nav-main div div ul li .dropdown-menu a:focus, body #nav-main div div ul li .dropdown-menu a:active, body #nav-main div div ul li .dropdown-menu a:hover {
+  text-decoration: none;
+  color: #eb3719;
+  background-color: transparent;
+}
+/* line 123, ../sass/screen.scss */
+body #nav-main div div a button {
+  background-color: #eb3719;
+  font-weight: bold;
+}
+/* line 129, ../sass/screen.scss */
+body #nav-main div div a:hover button {
+  background-color: #ba2918;
+}
+/* line 136, ../sass/screen.scss */
+body .navbar-toggler-right {
+  position: absolute;
+  right: 0;
+  top: 0.75rem !important;
+}
+/* line 141, ../sass/screen.scss */
+body .navbar-light
+.navbar-toggler-icon {
+  background-image: url(../img/nav-toggle.png);
+  width: 1.8em !important;
+  height: 1.8em !important;
+}
+/* line 147, ../sass/screen.scss */
+body .navbar-light .navbar-toggler {
+  border: none;
+}
+/* line 150, ../sass/screen.scss */
+body .bg-white {
+  background-color: #ffffff;
+}
+/* line 153, ../sass/screen.scss */
+body .red {
+  color: #eb3719;
+}
+/* line 159, ../sass/screen.scss */
+body .page-btn .btn, body #services-area div.service-container .desc-btn .btn, body #start-project .row #project-text .desc-btn .btn, body #webdev-getin-touch .row #getin-touch-text .desc-btn .btn, body #webdev-3 .row .col-lg-4 p .page-btn .btn {
+  border-radius: 0 !important;
+  background-color: #eb3719;
+}
+/* line 163, ../sass/screen.scss */
+body .page-btn .btn:hover, body #services-area div.service-container .desc-btn .btn:hover, body #start-project .row #project-text .desc-btn .btn:hover, body #webdev-getin-touch .row #getin-touch-text .desc-btn .btn:hover, body #webdev-3 .row .col-lg-4 p .page-btn .btn:hover, body .page-btn .btn:focus, body #services-area div.service-container .desc-btn .btn:focus, body #start-project .row #project-text .desc-btn .btn:focus, body #webdev-getin-touch .row #getin-touch-text .desc-btn .btn:focus, body #webdev-3 .row .col-lg-4 p .page-btn .btn:focus {
+  background-color: #eb3719;
+  cursor: pointer;
+}
+/* line 167, ../sass/screen.scss */
+body .page-btn .btn-outline-danger, body #services-area div.service-container .desc-btn .btn-outline-danger, body #start-project .row #project-text .desc-btn .btn-outline-danger, body #webdev-getin-touch .row #getin-touch-text .desc-btn .btn-outline-danger, body #webdev-3 .row .col-lg-4 p .page-btn .btn-outline-danger {
+  color: white;
+  font: 600 1em "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+/* line 172, ../sass/screen.scss */
+body .page-btn .btn-outline-danger:hover, body #services-area div.service-container .desc-btn .btn-outline-danger:hover, body #start-project .row #project-text .desc-btn .btn-outline-danger:hover, body #webdev-getin-touch .row #getin-touch-text .desc-btn .btn-outline-danger:hover, body #webdev-3 .row .col-lg-4 p .page-btn .btn-outline-danger:hover, body .page-btn .btn-outline-danger:focus, body #services-area div.service-container .desc-btn .btn-outline-danger:focus, body #start-project .row #project-text .desc-btn .btn-outline-danger:focus, body #webdev-getin-touch .row #getin-touch-text .desc-btn .btn-outline-danger:focus, body #webdev-3 .row .col-lg-4 p .page-btn .btn-outline-danger:focus {
+  color: #ffffff;
+  cursor: pointer;
+}
+/* line 177, ../sass/screen.scss */
+body #myCarousel {
+  /* Carousel base class */
+  /* Since positioning the image, we need to help out the caption */
+  /* Declare heights because of positioning of img element */
+}
+/* line 179, ../sass/screen.scss */
+body #myCarousel .page-btn .btn, body #myCarousel #services-area div.service-container .desc-btn .btn, body #services-area div.service-container #myCarousel .desc-btn .btn, body #myCarousel #start-project .row #project-text .desc-btn .btn, body #start-project .row #project-text #myCarousel .desc-btn .btn, body #myCarousel #webdev-getin-touch .row #getin-touch-text .desc-btn .btn, body #webdev-getin-touch .row #getin-touch-text #myCarousel .desc-btn .btn, body #myCarousel #webdev-3 .row .col-lg-4 p .page-btn .btn, body #webdev-3 .row .col-lg-4 p #myCarousel .page-btn .btn {
+  font: normal 1em 'Poppins';
+}
+/* line 182, ../sass/screen.scss */
+body #myCarousel .page-btn .btn:hover, body #myCarousel #services-area div.service-container .desc-btn .btn:hover, body #services-area div.service-container #myCarousel .desc-btn .btn:hover, body #myCarousel #start-project .row #project-text .desc-btn .btn:hover, body #start-project .row #project-text #myCarousel .desc-btn .btn:hover, body #myCarousel #webdev-getin-touch .row #getin-touch-text .desc-btn .btn:hover, body #webdev-getin-touch .row #getin-touch-text #myCarousel .desc-btn .btn:hover, body #myCarousel #webdev-3 .row .col-lg-4 p .page-btn .btn:hover, body #webdev-3 .row .col-lg-4 p #myCarousel .page-btn .btn:hover {
+  background-color: #ba2918;
+}
+/* line 186, ../sass/screen.scss */
+body #myCarousel .carousel-indicators li {
+  max-width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+/* line 195, ../sass/screen.scss */
+body #myCarousel .carousel {
+  margin-bottom: 4rem;
+}
+/* line 199, ../sass/screen.scss */
+body #myCarousel .carousel-caption {
+  z-index: 10;
+  bottom: 3rem;
+}
+/* line 202, ../sass/screen.scss */
+body #myCarousel .carousel-caption h3 {
+  text-transform: uppercase;
+  font-size: 2em;
+  margin-bottom: 2rem;
+  padding: 15px 0 15px 0;
+  font: 800 2em "Poppins", sans-serif;
+}
+/* line 209, ../sass/screen.scss */
+body #myCarousel .carousel-caption .carousel-subtext {
+  font: 300 1em "Raleway", sans-serif;
+  padding-bottom: 50px;
+  line-height: 175%;
+}
+/* line 215, ../sass/screen.scss */
+body #myCarousel .carousel-indicators .active {
+  background-color: #eb3719;
+}
+/* line 220, ../sass/screen.scss */
+body #myCarousel .carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+/* line 224, ../sass/screen.scss */
+body #myCarousel .carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+/* line 234, ../sass/screen.scss */
+body #webdev-Carousel {
+  /* Carousel base class */
+  /* Since positioning the image, we need to help out the caption */
+  /* Declare heights because of positioning of img element */
+}
+/* line 240, ../sass/screen.scss */
+body #webdev-Carousel .carousel-inner .carousel-item .row .carousel-caption h2 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* line 244, ../sass/screen.scss */
+body #webdev-Carousel .carousel-inner .carousel-item .row .carousel-caption h2 a:hover {
+  color: #c3c3c3;
+}
+/* line 248, ../sass/screen.scss */
+body #webdev-Carousel .carousel-inner .carousel-item .row .carousel-caption h3 {
+  width: 50%;
+}
+/* line 253, ../sass/screen.scss */
+body #webdev-Carousel .carousel-inner .carousel-item .row .template-url a:hover {
+  opacity: 0.9;
+}
+/* line 261, ../sass/screen.scss */
+body #webdev-Carousel .page-btn .btn, body #webdev-Carousel #services-area div.service-container .desc-btn .btn, body #services-area div.service-container #webdev-Carousel .desc-btn .btn, body #webdev-Carousel #start-project .row #project-text .desc-btn .btn, body #start-project .row #project-text #webdev-Carousel .desc-btn .btn, body #webdev-Carousel #webdev-getin-touch .row #getin-touch-text .desc-btn .btn, body #webdev-getin-touch .row #getin-touch-text #webdev-Carousel .desc-btn .btn, body #webdev-Carousel #webdev-3 .row .col-lg-4 p .page-btn .btn, body #webdev-3 .row .col-lg-4 p #webdev-Carousel .page-btn .btn {
+  font: normal 1em 'Poppins';
+}
+/* line 266, ../sass/screen.scss */
+body #webdev-Carousel .carousel {
+  margin-bottom: 4rem;
+}
+/* line 270, ../sass/screen.scss */
+body #webdev-Carousel .carousel-caption {
+  z-index: 10;
+  bottom: 3rem;
+}
+/* line 273, ../sass/screen.scss */
+body #webdev-Carousel .carousel-caption h2 {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  font: 800 2em "Poppins", sans-serif;
+}
+/* line 278, ../sass/screen.scss */
+body #webdev-Carousel .carousel-caption h3 {
+  margin-bottom: 2rem;
+  font: 400 1em "Poppins", sans-serif;
+}
+/* line 283, ../sass/screen.scss */
+body #webdev-Carousel .carousel-indicators .active {
+  background-color: #eb3719;
+}
+/* line 288, ../sass/screen.scss */
+body #webdev-Carousel .carousel-item {
+  height: 40rem;
+  background-image: url("../img/webdev-slide-background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 295, ../sass/screen.scss */
+body #webdev-Carousel .carousel-item img {
+  position: absolute;
+  top: -35rem;
+  left: 25rem;
+  min-width: 100%;
+  height: 40rem;
+}
+/* line 309, ../sass/screen.scss */
+body .separator {
+  width: 50px;
+  height: 3px;
+  margin-bottom: 30px;
+  background-color: #eb3719;
+}
+/* line 315, ../sass/screen.scss */
+body .w-20px {
+  width: 20px;
+}
+/* line 318, ../sass/screen.scss */
+body .help-block {
+  color: #eb3719;
+  font: 100 1em 'Poppins';
+}
+/* line 322, ../sass/screen.scss */
+body .alert {
+  background-color: transparent;
+}
+/* line 324, ../sass/screen.scss */
+body .alert h4 {
+  font-size: 2em;
+}
+/* line 330, ../sass/screen.scss */
+body #content {
+  width: 60%;
+  margin: 2rem auto;
+}
+/* line 334, ../sass/screen.scss */
+body #content div h1 {
+  color: #1c1c1c;
+}
+/* line 337, ../sass/screen.scss */
+body #content div h1 span.main-title {
+  font: 900 2.5rem "Raleway", sans-serif;
+}
+/* line 340, ../sass/screen.scss */
+body #content div h1 span.main-subtitle {
+  font: 700 1.5rem "Raleway", sans-serif;
+}
+/* line 343, ../sass/screen.scss */
+body #content div h1 span.color-red {
+  color: #eb3719;
+}
+/* line 348, ../sass/screen.scss */
+body #content div p {
+  font: inherit;
+  margin: 30px 0;
+}
+/* line 351, ../sass/screen.scss */
+body #content div p .btn {
+  margin-top: 1em;
+  border-radius: 0 !important;
+  color: #ffffff;
+}
+/* line 356, ../sass/screen.scss */
+body #content div p .btn:hover, body #content div p .btn:focus {
+  background-color: #ba2918;
+}
+/* line 359, ../sass/screen.scss */
+body #content div p .btn-outline-danger {
+  font-weight: bold;
+  color: #ffffff;
+  border-color: #eb3719;
+}
+/* line 364, ../sass/screen.scss */
+body #content div p .btn-outline-danger:hover, body #content div p .btn-outline-danger:focus {
+  color: #ffffff;
+  border-color: #d0d0d0;
+}
+/* line 371, ../sass/screen.scss */
+body #webdev-welcome {
+  width: 60%;
+  margin: 5rem auto 2rem;
+}
+/* line 375, ../sass/screen.scss */
+body #webdev-welcome div h1 {
+  color: #1c1c1c;
+}
+/* line 377, ../sass/screen.scss */
+body #webdev-welcome div h1 span {
+  text-transform: uppercase;
+}
+/* line 379, ../sass/screen.scss */
+body #webdev-welcome div h1 span.webdev-welcome-title {
+  font: 800 2.5em 'Raleway';
+}
+/* line 382, ../sass/screen.scss */
+body #webdev-welcome div h1 span.webdev-welcome-subtitle {
+  font: 1.9em 'Raleway';
+}
+/* line 385, ../sass/screen.scss */
+body #webdev-welcome div h1 span.color-red {
+  color: #eb3719;
+}
+/* line 390, ../sass/screen.scss */
+body #webdev-welcome div h2 {
+  color: #1c1c1c;
+  margin-bottom: 3rem;
+}
+/* line 393, ../sass/screen.scss */
+body #webdev-welcome div h2 .webdev-welcome-subtitle {
+  font: 1em 'Poppins';
+}
+/* line 398, ../sass/screen.scss */
+body #webdev-welcome div .page-btn .btn:hover, body #webdev-welcome #services-area div.service-container .desc-btn .btn:hover, body #services-area #webdev-welcome div.service-container .desc-btn .btn:hover, body #webdev-welcome div #start-project .row #project-text .desc-btn .btn:hover, body #start-project .row #project-text #webdev-welcome div .desc-btn .btn:hover, body #webdev-welcome div #webdev-getin-touch .row #getin-touch-text .desc-btn .btn:hover, body #webdev-getin-touch .row #getin-touch-text #webdev-welcome div .desc-btn .btn:hover {
+  background-color: #ba2918;
+}
+/* line 406, ../sass/screen.scss */
+body #training-welcome {
+  width: 60%;
+  margin: 2rem auto;
+}
+/* line 410, ../sass/screen.scss */
+body #training-welcome div h1 {
+  color: #1c1c1c;
+}
+/* line 413, ../sass/screen.scss */
+body #training-welcome div h1 span.training-welcome-title {
+  font: 600 2.5em 'Arial';
+}
+/* line 416, ../sass/screen.scss */
+body #training-welcome div h1 span.training-welcome-subtitle {
+  font: 1.9em 'Arial';
+}
+/* line 419, ../sass/screen.scss */
+body #training-welcome div h1 span.color-red {
+  color: #eb3719;
+}
+/* line 424, ../sass/screen.scss */
+body #training-welcome div h2 {
+  color: #1c1c1c;
+}
+/* line 426, ../sass/screen.scss */
+body #training-welcome div h2 .training-welcome-subtitle {
+  font: 1.5em 'Arial';
+}
+/* line 432, ../sass/screen.scss */
+body #training-video {
+  width: 60%;
+  margin: 2rem auto;
+}
+/* line 436, ../sass/screen.scss */
+body #training-video div div {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+/* line 440, ../sass/screen.scss */
+body #training-video div h1 {
+  color: #1c1c1c;
+}
+/* line 443, ../sass/screen.scss */
+body #training-video div h1 span.training-video-title {
+  font: 2.0em 'Arial';
+}
+/* line 449, ../sass/screen.scss */
+body #training-video div h2 {
+  color: #1c1c1c;
+}
+/* line 451, ../sass/screen.scss */
+body #training-video div h2 .training-welcome-subtitle {
+  font: 1.5em 'Arial';
+}
+/* line 458, ../sass/screen.scss */
+body #training-count .row {
+  margin: 0;
+}
+/* line 462, ../sass/screen.scss */
+body #training-start {
+  width: 60%;
+  margin: 2rem auto;
+}
+/* line 466, ../sass/screen.scss */
+body #training-start div h1 {
+  color: #1c1c1c;
+}
+/* line 469, ../sass/screen.scss */
+body #training-start div h1 span.training-start-title {
+  font: 600 2.5em 'Arial';
+}
+/* line 472, ../sass/screen.scss */
+body #training-start div h1 span.training-start-subtitle {
+  font: 1.9em 'Arial';
+}
+/* line 475, ../sass/screen.scss */
+body #training-start div h1 span.color-red {
+  color: #eb3719;
+}
+/* line 480, ../sass/screen.scss */
+body #training-start div h2 {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  color: #1c1c1c;
+}
+/* line 484, ../sass/screen.scss */
+body #training-start div h2 .training-start-subtitle {
+  font: 1.5em 'Arial';
+}
+/* line 489, ../sass/screen.scss */
+body #training-start div p .btn {
+  color: #ffffff;
+  padding: 14px 54px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #eb3719;
+}
+/* line 498, ../sass/screen.scss */
+body #training-start div p .btn-outline-danger {
+  color: #ffffff;
+}
+/* line 501, ../sass/screen.scss */
+body #training-start div p .btn-outline-danger:hover, body #training-start div p .btn-outline-danger:focus {
+  background-color: #ba2918;
+}
+/* line 508, ../sass/screen.scss */
+body .horizontal-line {
+  border: 1px solid #eb3719;
+}
+/* line 511, ../sass/screen.scss */
+body .count {
+  line-height: 100px;
+  color: #eb3719;
+  margin-left: 30px;
+  font: 600 7.5em 'Arial';
+}
+/* line 518, ../sass/screen.scss */
+body .counter-label {
+  line-height: 50px;
+  color: black;
+  margin-left: 30px;
+  font-size: 25px;
+}
+/* line 526, ../sass/screen.scss */
+body .services-bg {
+  /* The image used */
+  background-color: #e7e8e9;
+  /* Set a specific height */
+  height: auto;
+  padding: 3rem 0;
+}
+/* line 540, ../sass/screen.scss */
+body #featured-about {
+  /* The image used */
+  background-image: url("../img/team.jpg");
+  /* Set a specific height */
+  height: 350px;
+  padding: 3rem 0;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 553, ../sass/screen.scss */
+body #featured-about .title-about {
+  font: bold 3em 'Poppins';
+  color: #ffffff;
+  height: 100%;
+  display: block;
+}
+/* line 558, ../sass/screen.scss */
+body #featured-about .title-about .title-text {
+  display: block;
+  margin-top: 6rem;
+}
+/* line 565, ../sass/screen.scss */
+body #quote-hero {
+  background-image: url("../img/quote-hero.jpg");
+  /* Set a specific height */
+  height: 250px;
+  padding: 3rem 0;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 575, ../sass/screen.scss */
+body #quote-hero .title-quote h1 {
+  font: 800 2rem 'Poppins';
+  color: #ffffff;
+  height: 100%;
+  display: block;
+}
+/* line 581, ../sass/screen.scss */
+body #quote-hero .quote-text {
+  font: 500 1.5rem 'Poppins';
+  color: #ffffff;
+  height: 100%;
+  display: block;
+}
+/* line 587, ../sass/screen.scss */
+body #quote-hero .subquote-text {
+  font: 500 1rem 'Poppins';
+  color: #ffffff;
+  height: 100%;
+  display: block;
+}
+/* line 596, ../sass/screen.scss */
+body #featured-training {
+  /* The image used */
+  background-image: url("../img/jumpstart.jpeg");
+  /* Set a specific height */
+  height: 400px;
+  padding: 3rem 0;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 609, ../sass/screen.scss */
+body #featured-training .title-training {
+  font: 600 2em 'Poppins';
+  color: #ffffff;
+  height: 100%;
+  display: block;
+}
+/* line 614, ../sass/screen.scss */
+body #featured-training .title-training .title-training-text {
+  display: block;
+  font: 2em 'Poppins';
+}
+/* line 621, ../sass/screen.scss */
+body #featured-webdev {
+  /* The image used */
+  background-image: url("../img/webdevelopment1.jpg");
+  /* Set a specific height */
+  height: 500px;
+  padding: 3rem 0;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 634, ../sass/screen.scss */
+body #featured-webdev .row {
+  margin: 0;
+}
+/* line 636, ../sass/screen.scss */
+body #featured-webdev .row .title-webdev {
+  height: 100%;
+  display: block;
+}
+/* line 639, ../sass/screen.scss */
+body #featured-webdev .row .title-webdev img {
+  height: auto;
+  width: 80%;
+}
+/* line 643, ../sass/screen.scss */
+body #featured-webdev .row .title-webdev h1 {
+  margin-top: 3rem;
+  font: 800 3em 'Poppins';
+  color: #ffffff;
+}
+/* line 652, ../sass/screen.scss */
+body #services-area {
+  text-align: left;
+}
+/* line 654, ../sass/screen.scss */
+body #services-area .service-main-title {
+  margin-bottom: 10px;
+  font: 900 2.5rem "Raleway", sans-serif;
+  color: #1c1c1c;
+}
+/* line 663, ../sass/screen.scss */
+body #services-area div.service-container {
+  width: 24.9999%;
+  margin: 1rem 2.5rem;
+  color: #3e3e3e;
+}
+/* line 667, ../sass/screen.scss */
+body #services-area div.service-container img {
+  border: solid 2px #eb3719;
+  height: auto;
+  width: 330px;
+}
+/* line 672, ../sass/screen.scss */
+body #services-area div.service-container .main-desc {
+  font: 800 1.5em "Poppins", sans-serif;
+  margin: 15px 0;
+  color: #3e3e3e;
+}
+/* line 678, ../sass/screen.scss */
+body #services-area div.service-container .sub-desc {
+  font-size: 1em;
+  margin-bottom: 10px;
+  text-align: left;
+}
+/* line 685, ../sass/screen.scss */
+body #services-area div.service-container .desc-btn .btn:hover {
+  background-color: #ba2918;
+}
+/* line 694, ../sass/screen.scss */
+body #services-3 #services-3head {
+  background-image: url("../img/web-design1.jpeg");
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+/* line 703, ../sass/screen.scss */
+body #services-3 #services-3head h1 {
+  font: 800 2.5rem "Raleway", sans-serif;
+  color: #ffffff;
+  margin: 1rem 0 2rem 0;
+}
+/* line 708, ../sass/screen.scss */
+body #services-3 #services-3head div {
+  font: 500 1em "Poppins", sans-serif;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+/* line 715, ../sass/screen.scss */
+body #services-3 .row .desc-btn {
+  margin-top: 2rem;
+}
+/* line 717, ../sass/screen.scss */
+body #services-3 .row .desc-btn .btn:hover {
+  background-color: #ba2918;
+}
+/* line 721, ../sass/screen.scss */
+body #services-3 .row #home-webdesign {
+  background-image: url("../img/web-design.jpeg");
+}
+/* line 723, ../sass/screen.scss */
+body #services-3 .row #home-webdesign h2 {
+  text-transform: uppercase;
+  font: 800 1.8rem "Poppins", sans-serif;
+  color: #ffffff;
+  margin: 3rem 0;
+}
+/* line 729, ../sass/screen.scss */
+body #services-3 .row #home-webdesign h3 {
+  font: 300 1.1em "Poppins", sans-serif;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+/* line 734, ../sass/screen.scss */
+body #services-3 .row #home-webdesign p {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: #c1c1c1;
+}
+/* line 740, ../sass/screen.scss */
+body #services-3 .row #home-socialmedia {
+  background-image: url("../img/socialmedia-home.jpeg");
+}
+/* line 746, ../sass/screen.scss */
+body #services-3 .row #home-socialmedia h2 {
+  text-transform: uppercase;
+  font: 800 1.8em "Raleway", sans-serif;
+  color: #ffffff;
+  margin: 3rem 0;
+}
+/* line 752, ../sass/screen.scss */
+body #services-3 .row #home-socialmedia h3 {
+  font: 300 1.1em "Poppins", sans-serif;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+/* line 757, ../sass/screen.scss */
+body #services-3 .row #home-socialmedia p {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: #c1c1c1;
+}
+/* line 762, ../sass/screen.scss */
+body #services-3 .row #home-socialmedia .desc-btn {
+  margin-top: 2rem;
+}
+/* line 766, ../sass/screen.scss */
+body #services-3 .row #home-training {
+  background-image: url("../img/training-home.jpg");
+}
+/* line 768, ../sass/screen.scss */
+body #services-3 .row #home-training h2 {
+  text-transform: uppercase;
+  font: 800 1.8em "Raleway", sans-serif;
+  color: #ffffff;
+  margin: 3rem 0;
+}
+/* line 774, ../sass/screen.scss */
+body #services-3 .row #home-training h3 {
+  font: 300 1.1em "Poppins", sans-serif;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+/* line 779, ../sass/screen.scss */
+body #services-3 .row #home-training p {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: #c1c1c1;
+}
+/* line 784, ../sass/screen.scss */
+body #services-3 .row #home-training .desc-btn {
+  margin-top: 2rem;
+}
+/* line 795, ../sass/screen.scss */
+body #start-project .row #project-text {
+  background-image: url("../img/start-project2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 801, ../sass/screen.scss */
+body #start-project .row #project-text h2 {
+  text-transform: uppercase;
+  font: 800 1.8em "Raleway", sans-serif;
+  color: #ffffff;
+  margin: 3rem 0;
+}
+/* line 807, ../sass/screen.scss */
+body #start-project .row #project-text h3 {
+  font: 800 1.8em "Raleway", sans-serif;
+  color: #ffffff;
+  margin: -2rem 0 3rem 0;
+}
+/* line 812, ../sass/screen.scss */
+body #start-project .row #project-text p {
+  font: 300 1.1em "Poppins", sans-serif;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: #c1c1c1;
+}
+/* line 818, ../sass/screen.scss */
+body #start-project .row #project-text .desc-btn {
+  margin-top: 2rem;
+}
+/* line 821, ../sass/screen.scss */
+body #start-project .row #project-text .desc-btn .btn:hover {
+  background-color: #ba2918;
+}
+/* line 831, ../sass/screen.scss */
+body #webdev-getin-touch .row #getin-touch-text {
+  background-color: #eb3719;
+  /*        background-image: url("../img/start-project2.jpg");
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;*/
+}
+/* line 838, ../sass/screen.scss */
+body #webdev-getin-touch .row #getin-touch-text h2 {
+  text-transform: uppercase;
+  font: 800 1.8em "Raleway", sans-serif;
+  color: #ffffff;
+  margin: 3rem 0;
+}
+/* line 844, ../sass/screen.scss */
+body #webdev-getin-touch .row #getin-touch-text h3 {
+  font: 800 1.8em "Raleway", sans-serif;
+  color: #ffffff;
+  margin: -2rem 0 3rem 0;
+}
+/* line 849, ../sass/screen.scss */
+body #webdev-getin-touch .row #getin-touch-text p {
+  font: 300 1.1em "Poppins", sans-serif;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: #c1c1c1;
+}
+/* line 855, ../sass/screen.scss */
+body #webdev-getin-touch .row #getin-touch-text .desc-btn {
+  margin-top: 2rem;
+}
+/* line 858, ../sass/screen.scss */
+body #webdev-getin-touch .row #getin-touch-text .desc-btn .btn:hover {
+  background-color: #ba2918;
+}
+/* line 866, ../sass/screen.scss */
+body #pricing-table {
+  padding: 3rem 0;
+  background-color: #ffffff;
+  /* The image used */
+  /* Set a specific height */
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 882, ../sass/screen.scss */
+body #pricing-table #pricing-title {
+  font: 900 2.5em "Raleway", sans-serif;
+  margin: 0.5rem auto;
+  color: #313132;
+}
+/* line 887, ../sass/screen.scss */
+body #pricing-table .pricing-sub-desc {
+  font: 700 1em 'Poppins', sans-serif;
+  color: #1c1c1c;
+}
+/* line 891, ../sass/screen.scss */
+body #pricing-table .pricing-container {
+  vertical-align: top;
+  width: 24%;
+  margin: 2rem 0;
+  background-color: #313132;
+}
+/* line 896, ../sass/screen.scss */
+body #pricing-table .pricing-container p {
+  color: #bebebe;
+}
+/* line 899, ../sass/screen.scss */
+body #pricing-table .pricing-container .pricing-parallax, body #pricing-table .pricing-container .custom-container-cover, body #pricing-table .pricing-container .ecom-container-cover, body #pricing-table .pricing-container .cms-container-cover, body #pricing-table .pricing-container .info-container-cover {
+  font: 700 1.5em 'Poppins', sans-serif;
+  color: #ffffff;
+  border: solid 4px #1c1c1c;
+  padding: 15px 0;
+  width: 100%;
+  height: auto;
+}
+/* line 907, ../sass/screen.scss */
+body #pricing-table .pricing-container .custom-container-cover {
+  background: url("../img/custom.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+/* line 912, ../sass/screen.scss */
+body #pricing-table .pricing-container .ecom-container-cover {
+  background: url("../img/ecommerce-2.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+/* line 917, ../sass/screen.scss */
+body #pricing-table .pricing-container .cms-container-cover {
+  background: url("../img/cms.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+/* line 922, ../sass/screen.scss */
+body #pricing-table .pricing-container .info-container-cover {
+  background: url("../img/infosite.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+/* line 927, ../sass/screen.scss */
+body #pricing-table .pricing-container .pricing-display {
+  display: none;
+}
+/* line 930, ../sass/screen.scss */
+body #pricing-table .pricing-container .pricing-desc {
+  width: 70%;
+  margin: 25px auto;
+}
+/* line 934, ../sass/screen.scss */
+body #pricing-table .pricing-container .pricing-price {
+  font: 800 1.5em 'Arial';
+  color: #eb3719;
+}
+/* line 939, ../sass/screen.scss */
+body #pricing-table .pricing-container .pricing-btn .btn {
+  font-weight: bolder;
+  background-color: #1c1c1c;
+  border: none;
+  margin-bottom: 1rem;
+}
+/* line 945, ../sass/screen.scss */
+body #pricing-table .pricing-container .pricing-btn .btn:hover {
+  background-color: #eb3719;
+}
+/* line 949, ../sass/screen.scss */
+body #pricing-table .pricing-container .pricing-features {
+  margin: 10px auto;
+}
+/* line 951, ../sass/screen.scss */
+body #pricing-table .pricing-container .pricing-features a {
+  text-decoration: none;
+  color: #eb3719;
+}
+/* line 955, ../sass/screen.scss */
+body #pricing-table .pricing-container .pricing-features a:hover {
+  text-decoration: none;
+  color: #ba2918;
+}
+/* line 964, ../sass/screen.scss */
+body #contact-area {
+  padding: 1rem 0 3rem 0;
+  background-color: #1c1c1c;
+}
+/* line 968, ../sass/screen.scss */
+body #contact-area #form-con {
+  margin-bottom: 3rem;
+  float: left;
+}
+/* line 972, ../sass/screen.scss */
+body #contact-area #location-con {
+  float: right;
+}
+/* line 975, ../sass/screen.scss */
+body #contact-area h2 {
+  font: bold 1.75em 'Arial';
+  margin: 0.5rem auto;
+  color: #ffffff;
+}
+/* line 980, ../sass/screen.scss */
+body #contact-area p {
+  font-size: 1em;
+  color: #ffffff;
+}
+/* line 985, ../sass/screen.scss */
+body #contact-area form .h-64 {
+  height: 64px;
+}
+/* line 988, ../sass/screen.scss */
+body #contact-area form input {
+  background: transparent;
+  border: solid 1px #ffffff;
+  color: #ffffff;
+}
+/* line 993, ../sass/screen.scss */
+body #contact-area form textarea {
+  background: transparent;
+  border: solid 1px #ffffff;
+  color: #ffffff;
+}
+/* line 999, ../sass/screen.scss */
+body #contact-area form .has-error input {
+  border: solid 1px #eb3719;
+}
+/* line 1002, ../sass/screen.scss */
+body #contact-area form .has-error textarea {
+  border: solid 1px #eb3719;
+}
+/* line 1006, ../sass/screen.scss */
+body #contact-area form .btn:hover {
+  background-color: #ba2918;
+}
+/* line 1010, ../sass/screen.scss */
+body #contact-area #location {
+  font-size: 1.5em;
+}
+/* line 1013, ../sass/screen.scss */
+body #contact-area .location-separator {
+  background-color: #ffffff;
+  width: 1px;
+  height: 300px;
+}
+/* line 1019, ../sass/screen.scss */
+body #footer-con {
+  background-color: #1c1c1c;
+}
+/* line 1022, ../sass/screen.scss */
+body #footer-con #links-con aside {
+  /*&#site-logo{
+    img{
+      padding: 2px;
+    }
+    img:hover{
+      background-color: $red;
+      border-radius: 50%;
+      transition: 0.5s;
+    }
+  }*/
+  text-align: left;
+  width: 24.9999%;
+  margin: 2rem 1rem;
+  display: inline-block;
+  vertical-align: top;
+  /*.hoolma-socials{
+    display: inline;
+    a{
+      color: #ffffff;
+      width: 40px;
+      height: 40px;
+      margin: 5px;
+      display: inline-block;
+      text-align: center;
+      padding: 10px 0;
+      transition: 0.6s;
+      border: 1px solid #ffffff;
+    }
+    a:hover{
+      border-radius: 50%;
+      border-color: $red;
+      color: $red;
+      transition: 0.6s;
+    }
+  }*/
+}
+/* line 1038, ../sass/screen.scss */
+body #footer-con #links-con aside h3 {
+  font-size: 1.25em;
+  color: #ffffff;
+}
+/* line 1043, ../sass/screen.scss */
+body #footer-con #links-con aside .hoolma-site ul {
+  list-style: none;
+}
+/* line 1046, ../sass/screen.scss */
+body #footer-con #links-con aside .hoolma-site a {
+  font-size: 1.10em;
+  color: #ffffff;
+  display: block;
+  margin: 10px 0 10px 0;
+}
+/* line 1052, ../sass/screen.scss */
+body #footer-con #links-con aside .hoolma-site a:hover {
+  text-decoration: none;
+  color: #eb3719;
+  transition: 0.3s;
+}
+/* line 1080, ../sass/screen.scss */
+body #footer-con .hoolma-social-icon {
+  margin: 0.5rem 0.5rem 0 0;
+}
+/* line 1087, ../sass/screen.scss */
+body #footer-con .hoolma-social-icon a:hover img {
+  background-color: #eb3719;
+  transition: all 0.3s ease-in-out;
+}
+/* line 1095, ../sass/screen.scss */
+body #quote-area {
+  padding: 1rem 0 3rem 0;
+}
+/* line 1097, ../sass/screen.scss */
+body #quote-area #quote-form {
+  border-radius: 0.5rem;
+  margin-top: -5rem;
+  margin-bottom: 3rem;
+  float: left;
+  background-color: #efefef;
+  border: 1px solid #c2c2c2;
+}
+/* line 1104, ../sass/screen.scss */
+body #quote-area #quote-form #quote-title h2 {
+  color: #eb3719;
+  font: bold 1em 'Poppins';
+}
+/* line 1109, ../sass/screen.scss */
+body #quote-area #quote-form #quoteForm em {
+  font-size: 0.75em;
+}
+/* line 1112, ../sass/screen.scss */
+body #quote-area #quote-form #quoteForm input {
+  background: transparent;
+  border: solid 2px #616162;
+  color: #000000;
+  height: 3rem;
+  font: 200 1em 'Poppins';
+}
+/* line 1119, ../sass/screen.scss */
+body #quote-area #quote-form #quoteForm textarea {
+  background: transparent;
+  border: solid 2px #616162;
+  color: #000000;
+}
+/* line 1128, ../sass/screen.scss */
+body #quote-area #quote-form #quoteForm .has-error input {
+  border: solid 1px #eb3719;
+}
+/* line 1131, ../sass/screen.scss */
+body #quote-area #quote-form #quoteForm .has-error textarea {
+  border: solid 1px #eb3719;
+}
+/* line 1137, ../sass/screen.scss */
+body #quote-area #quote-question {
+  float: right;
+}
+/* line 1139, ../sass/screen.scss */
+body #quote-area #quote-question quote-support {
+  backgound-color: pink;
+}
+/* line 1143, ../sass/screen.scss */
+body #quote-area h2 {
+  font: bold 1.75em 'Arial';
+  margin: 0.5rem auto;
+  color: #ffffff;
+}
+/* line 1148, ../sass/screen.scss */
+body #quote-area p {
+  font-size: 1em;
+  color: #000000;
+}
+/* line 1153, ../sass/screen.scss */
+body #quote-area form .h-64 {
+  height: 64px;
+}
+/* line 1156, ../sass/screen.scss */
+body #quote-area form input {
+  background: transparent;
+  border: solid 1px #000000;
+  color: #000000;
+}
+/* line 1161, ../sass/screen.scss */
+body #quote-area form textarea {
+  background: transparent;
+  border: solid 1px #000000;
+  color: #000000;
+}
+/* line 1167, ../sass/screen.scss */
+body #quote-area form .has-error input {
+  border: solid 1px #eb3719;
+}
+/* line 1170, ../sass/screen.scss */
+body #quote-area form .has-error textarea {
+  border: solid 1px #eb3719;
+}
+/* line 1175, ../sass/screen.scss */
+body #quote-area #com-question {
+  font-size: 1.5em;
+  color: #000000;
+}
+/* line 1179, ../sass/screen.scss */
+body #quote-area .com-question-red {
+  font-size: 1.5em;
+  color: #eb3719;
+}
+/* line 1183, ../sass/screen.scss */
+body #quote-area .location-separator {
+  background-color: #ffffff;
+  width: 1px;
+  height: 300px;
+}
+/* line 1192, ../sass/screen.scss */
+body #consult-area {
+  padding: 1rem 0 3rem 0;
+}
+/* line 1195, ../sass/screen.scss */
+body #consult-area #consult-form {
+  margin-bottom: 3rem;
+  float: left;
+  background-color: #efefef;
+}
+/* line 1199, ../sass/screen.scss */
+body #consult-area #consult-form #consult-title {
+  background-color: #eb3719;
+  margin-bottom: 3rem;
+  padding: 1rem 2rem;
+}
+/* line 1203, ../sass/screen.scss */
+body #consult-area #consult-form #consult-title #consult-subtitle {
+  color: #ffffff;
+}
+/* line 1208, ../sass/screen.scss */
+body #consult-area #consult-form #consultForm em {
+  font-size: 0.75em;
+}
+/* line 1211, ../sass/screen.scss */
+body #consult-area #consult-form #consultForm input {
+  background: transparent;
+  border: solid 1px #000000;
+  color: #000000;
+}
+/* line 1216, ../sass/screen.scss */
+body #consult-area #consult-form #consultForm textarea {
+  background: transparent;
+  border: solid 1px #000000;
+  color: #000000;
+}
+/* line 1222, ../sass/screen.scss */
+body #consult-area #consult-form #consultForm .has-error input {
+  border: solid 1px #eb3719;
+}
+/* line 1225, ../sass/screen.scss */
+body #consult-area #consult-form #consultForm .has-error textarea {
+  border: solid 1px #eb3719;
+}
+/* line 1230, ../sass/screen.scss */
+body #consult-area #consult-form #consultForm #tab-name .name {
+  vertical-align: top;
+  width: 49.2%;
+  margin: 0 auto;
+}
+/* line 1236, ../sass/screen.scss */
+body #consult-area #consult-form #consultForm #mobile-name {
+  display: none;
+}
+/* line 1241, ../sass/screen.scss */
+body #consult-area #consult-question {
+  float: right;
+}
+/* line 1244, ../sass/screen.scss */
+body #consult-area h2 {
+  font: bold 1.75em 'Arial';
+  margin: 0.5rem auto;
+  color: #ffffff;
+}
+/* line 1249, ../sass/screen.scss */
+body #consult-area p {
+  font-size: 1em;
+  color: #000000;
+}
+/* line 1254, ../sass/screen.scss */
+body #consult-area form .h-64 {
+  height: 64px;
+}
+/* line 1257, ../sass/screen.scss */
+body #consult-area form input {
+  background: transparent;
+  border: solid 1px #000000;
+  color: #000000;
+}
+/* line 1262, ../sass/screen.scss */
+body #consult-area form textarea {
+  background: transparent;
+  border: solid 1px #000000;
+  color: #000000;
+}
+/* line 1268, ../sass/screen.scss */
+body #consult-area form .has-error input {
+  border: solid 1px #eb3719;
+}
+/* line 1271, ../sass/screen.scss */
+body #consult-area form .has-error textarea {
+  border: solid 1px #eb3719;
+}
+/* line 1276, ../sass/screen.scss */
+body #consult-area #com-question {
+  font-size: 1.5em;
+  color: #000000;
+}
+/* line 1280, ../sass/screen.scss */
+body #consult-area .com-question-red {
+  font-size: 1.5em;
+  color: #eb3719;
+}
+/* line 1284, ../sass/screen.scss */
+body #consult-area .location-separator {
+  background-color: #ffffff;
+  width: 1px;
+  height: 300px;
+}
+/* line 1292, ../sass/screen.scss */
+body .consult-btn .btn {
+  color: #ffffff;
+  padding: 14px 54px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #eb3719;
+}
+/* line 1301, ../sass/screen.scss */
+body .consult-btn .btn:hover, body .consult-btn .btn:focus {
+  background-color: #eb3719;
+  cursor: pointer;
+  color: #000000;
+}
+/* line 1306, ../sass/screen.scss */
+body .consult-btn .btn-outline-danger {
+  color: #eb3719;
+  border-color: #d0d0d0;
+}
+/* line 1310, ../sass/screen.scss */
+body .consult-btn .btn-outline-danger:hover, body .consult-btn .btn-outline-danger:focus {
+  color: #ffffff;
+  border-color: #d0d0d0;
+}
+/* line 1321, ../sass/screen.scss */
+body .marketing {
+  padding-top: 1.5rem;
+}
+/* line 1323, ../sass/screen.scss */
+body .marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+/* line 1326, ../sass/screen.scss */
+body .marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* line 1331, ../sass/screen.scss */
+body .marketing .col-lg-6 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+/* line 1334, ../sass/screen.scss */
+body .marketing .col-lg-6 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* line 1339, ../sass/screen.scss */
+body .marketing h2 {
+  margin-bottom: 1rem;
+  padding: 1rem 1rem;
+}
+/* line 1343, ../sass/screen.scss */
+body .marketing #team-quote {
+  font-size: 3em;
+}
+/* line 1348, ../sass/screen.scss */
+body #team-2 {
+  margin: 0 auto;
+  width: 1000px;
+}
+/* line 1351, ../sass/screen.scss */
+body #team-2 .row {
+  margin: 0;
+}
+/* line 1354, ../sass/screen.scss */
+body #team-2 .row .col-lg-5 img {
+  width: 240px;
+  height: auto;
+}
+/* line 1358, ../sass/screen.scss */
+body #team-2 .row .col-lg-5 a {
+  color: #1c1c1c;
+}
+/* line 1361, ../sass/screen.scss */
+body #team-2 .row .col-lg-5 a:hover {
+  color: #eb3719;
+}
+/* line 1368, ../sass/screen.scss */
+body #team-3 .row {
+  margin: 0;
+}
+/* line 1371, ../sass/screen.scss */
+body #team-3 .row .col-lg-4 img {
+  width: 240px;
+  height: auto;
+}
+/* line 1375, ../sass/screen.scss */
+body #team-3 .row .col-lg-4 a {
+  color: #1c1c1c;
+}
+/* line 1378, ../sass/screen.scss */
+body #team-3 .row .col-lg-4 a:hover {
+  color: #eb3719;
+}
+/* line 1385, ../sass/screen.scss */
+body #training-3 .row {
+  margin: 0;
+}
+/* line 1388, ../sass/screen.scss */
+body #training-3 .row .col-lg-4 img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #eb3719;
+}
+/* line 1393, ../sass/screen.scss */
+body #training-3 .row .col-lg-4 h2 {
+  font: bold 1.85em 'Arial';
+}
+/* line 1397, ../sass/screen.scss */
+body #training-3 .row .col-lg-4 p a {
+  color: #1c1c1c;
+}
+/* line 1400, ../sass/screen.scss */
+body #training-3 .row .col-lg-4 p a:hover {
+  color: #ffffff;
+}
+/* line 1403, ../sass/screen.scss */
+body #training-3 .row .col-lg-4 p .btn {
+  border-radius: 0 !important;
+  margin-top: 1rem;
+}
+/* line 1407, ../sass/screen.scss */
+body #training-3 .row .col-lg-4 p .btn:hover, body #training-3 .row .col-lg-4 p .btn:focus {
+  background-color: #eb3719;
+}
+/* line 1410, ../sass/screen.scss */
+body #training-3 .row .col-lg-4 p .btn-outline-danger {
+  font-weight: bold;
+  color: #ffffff;
+  border-color: #eb3719;
+}
+/* line 1415, ../sass/screen.scss */
+body #training-3 .row .col-lg-4 p .btn-outline-danger:hover, body #training-3 .row .col-lg-4 p .btn-outline-danger:focus {
+  background-color: #ba2918;
+}
+/* line 1422, ../sass/screen.scss */
+body #webdev-3 {
+  margin-top: 2rem;
+  background-color: #e7e7e9;
+}
+/* line 1425, ../sass/screen.scss */
+body #webdev-3 .row {
+  margin: 0;
+}
+/* line 1429, ../sass/screen.scss */
+body #webdev-3 .row .col-lg-4 img {
+  width: 70%;
+  height: 30%;
+  border: 1px solid #eb3719;
+}
+/* line 1434, ../sass/screen.scss */
+body #webdev-3 .row .col-lg-4 h2 {
+  font: bold 1.85em 'Arial';
+}
+/* line 1438, ../sass/screen.scss */
+body #webdev-3 .row .col-lg-4 p a {
+  color: #1c1c1c;
+}
+/* line 1441, ../sass/screen.scss */
+body #webdev-3 .row .col-lg-4 p a:hover {
+  color: #ffffff;
+}
+@media (max-width: 992px) {
+  /* line 1456, ../sass/screen.scss */
+  body #training-3 .row .col-lg-4 img {
+    width: 50%;
+    height: auto;
+    border: 2px solid #eb3719;
+  }
+  /* line 1469, ../sass/screen.scss */
+  body #webdev-Carousel .carousel-inner .carousel-item .row .carousel-caption h3 {
+    width: 40%;
+  }
+  /* line 1478, ../sass/screen.scss */
+  body #contact-area .container {
+    width: 100%;
+  }
+  /* line 1482, ../sass/screen.scss */
+  body #content {
+    width: 90%;
+  }
+  /* line 1485, ../sass/screen.scss */
+  body #training-welcome {
+    width: 90%;
+  }
+  /* line 1488, ../sass/screen.scss */
+  body #training-video {
+    width: 90%;
+  }
+  /* line 1491, ../sass/screen.scss */
+  body #training-start {
+    width: 90%;
+  }
+  /* line 1495, ../sass/screen.scss */
+  body #hoolma-blog .container {
+    width: 100%;
+  }
+  /* line 1501, ../sass/screen.scss */
+  body #services-area div.service-container {
+    width: 90%;
+    margin: 2rem auto;
+  }
+  /* line 1508, ../sass/screen.scss */
+  body #pricing-table .container {
+    width: 100%;
+  }
+  /* line 1511, ../sass/screen.scss */
+  body #pricing-table .pricing-container {
+    vertical-align: top;
+    margin: 2rem 0;
+    /*.pricing-price{
+      font: 800 1em 'Arial';
+    }*/
+  }
+  /* line 1519, ../sass/screen.scss */
+  body #team-2 {
+    width: 100%;
+  }
+  /* line 1522, ../sass/screen.scss */
+  body .container {
+    width: 750px;
+    max-width: 100%;
+  }
+  /* line 1526, ../sass/screen.scss */
+  body .carousel-caption {
+    z-index: 10;
+    bottom: 3rem;
+  }
+  /* line 1529, ../sass/screen.scss */
+  body .carousel-caption h3 {
+    font-size: 2em;
+    padding-bottom: 20px;
+  }
+  /* line 1533, ../sass/screen.scss */
+  body .carousel-caption p {
+    font-size: 1.5em;
+    padding-bottom: 20px;
+  }
+  /* line 1539, ../sass/screen.scss */
+  body #featured-training .title-training {
+    font: 600 1.5em 'Poppins';
+    color: #ffffff;
+    height: 100%;
+    display: block;
+  }
+  /* line 1544, ../sass/screen.scss */
+  body #featured-training .title-training .title-training-text {
+    display: block;
+    font: 2em 'Poppins';
+  }
+  /* line 1551, ../sass/screen.scss */
+  body #featured-webdev {
+    /* The image used */
+    background-image: url("../img/webdevelopment1.jpg");
+    /* Set a specific height */
+    height: 500px;
+    padding: 3rem 0;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* line 1564, ../sass/screen.scss */
+  body #featured-webdev .row {
+    margin: 0;
+  }
+  /* line 1566, ../sass/screen.scss */
+  body #featured-webdev .row .title-webdev {
+    height: 80%;
+    display: block;
+  }
+  /* line 1569, ../sass/screen.scss */
+  body #featured-webdev .row .title-webdev img {
+    height: auto;
+    width: 60%;
+  }
+  /* line 1573, ../sass/screen.scss */
+  body #featured-webdev .row .title-webdev h1 {
+    font: 800 2.5rem 'Poppins';
+    color: #ffffff;
+  }
+  /* line 1580, ../sass/screen.scss */
+  body #webdev-welcome {
+    width: 90%;
+    margin: 15rem auto 2rem;
+  }
+  /* line 1584, ../sass/screen.scss */
+  body #webdev-welcome div h1 {
+    color: #1c1c1c;
+  }
+  /* line 1586, ../sass/screen.scss */
+  body #webdev-welcome div h1 span {
+    text-transform: uppercase;
+  }
+  /* line 1588, ../sass/screen.scss */
+  body #webdev-welcome div h1 span.webdev-welcome-title {
+    font: 800 2.5em 'Raleway';
+  }
+  /* line 1591, ../sass/screen.scss */
+  body #webdev-welcome div h1 span.webdev-welcome-subtitle {
+    font: 1.9em 'Raleway';
+  }
+  /* line 1594, ../sass/screen.scss */
+  body #webdev-welcome div h1 span.color-red {
+    color: #eb3719;
+  }
+  /* line 1599, ../sass/screen.scss */
+  body #webdev-welcome div h2 {
+    color: #1c1c1c;
+    margin-bottom: 3rem;
+  }
+  /* line 1602, ../sass/screen.scss */
+  body #webdev-welcome div h2 .webdev-welcome-subtitle {
+    font: 1em 'Poppins';
+  }
+}
+@media (max-width: 769px) {
+  /* line 1613, ../sass/screen.scss */
+  body #footer-con #links-con aside {
+    width: 90%;
+  }
+  /* line 1614, ../sass/screen.scss */
+  body #footer-con #links-con aside img {
+    display: inline;
+  }
+  /* line 1621, ../sass/screen.scss */
+  body #myCarousel {
+    /* Carousel base class */
+    /* Since positioning the image, we need to help out the caption */
+  }
+  /* line 1623, ../sass/screen.scss */
+  body #myCarousel .page-btn .btn, body #myCarousel #services-area div.service-container .desc-btn .btn, body #services-area div.service-container #myCarousel .desc-btn .btn, body #myCarousel #start-project .row #project-text .desc-btn .btn, body #start-project .row #project-text #myCarousel .desc-btn .btn, body #myCarousel #webdev-getin-touch .row #getin-touch-text .desc-btn .btn, body #webdev-getin-touch .row #getin-touch-text #myCarousel .desc-btn .btn, body #myCarousel #webdev-3 .row .col-lg-4 p .page-btn .btn, body #webdev-3 .row .col-lg-4 p #myCarousel .page-btn .btn {
+    font: normal 1em 'Poppins';
+  }
+  /* line 1627, ../sass/screen.scss */
+  body #myCarousel .carousel-indicators li {
+    max-width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  /* line 1635, ../sass/screen.scss */
+  body #myCarousel .carousel {
+    margin-bottom: 4rem;
+  }
+  /* line 1640, ../sass/screen.scss */
+  body #myCarousel .carousel-caption h3 {
+    font-size: 1.5em;
+    padding: 15px 0 15px 0;
+  }
+  /* line 1644, ../sass/screen.scss */
+  body #myCarousel .carousel-caption p {
+    font-size: 1em;
+    padding-bottom: 15px;
+  }
+  /* line 1651, ../sass/screen.scss */
+  body #pricing-table .pricing-container {
+    vertical-align: 0;
+    width: 90%;
+  }
+  /* line 1654, ../sass/screen.scss */
+  body #pricing-table .pricing-container .pricing-price {
+    font: 800 1.5em 'Poppins';
+  }
+  /* line 1657, ../sass/screen.scss */
+  body #pricing-table .pricing-container .pricing-display {
+    display: block;
+  }
+  /* line 1662, ../sass/screen.scss */
+  body .container {
+    width: 750px;
+    max-width: 100%;
+  }
+  /* line 1666, ../sass/screen.scss */
+  body .carousel-caption {
+    z-index: 10;
+    bottom: 3rem;
+  }
+  /* line 1669, ../sass/screen.scss */
+  body .carousel-caption h3 {
+    font-size: 2em;
+    padding-bottom: 20px;
+  }
+  /* line 1673, ../sass/screen.scss */
+  body .carousel-caption p {
+    font-size: 1.5em;
+    padding-bottom: 20px;
+  }
+  /* line 1678, ../sass/screen.scss */
+  body #featured-webdev {
+    /* The image used */
+    background-image: url("../img/webdevelopment1.jpg");
+    /* Set a specific height */
+    height: 500px;
+    padding: 3rem 0;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* line 1691, ../sass/screen.scss */
+  body #featured-webdev .row {
+    margin: 0;
+  }
+  /* line 1693, ../sass/screen.scss */
+  body #featured-webdev .row .title-webdev {
+    height: 80%;
+    display: block;
+  }
+  /* line 1696, ../sass/screen.scss */
+  body #featured-webdev .row .title-webdev img {
+    height: auto;
+    width: 100%;
+  }
+  /* line 1700, ../sass/screen.scss */
+  body #featured-webdev .row .title-webdev h1 {
+    font: 800 2rem 'Poppins';
+    color: #ffffff;
+  }
+  /* line 1707, ../sass/screen.scss */
+  body #webdev-welcome {
+    margin-top: 20rem;
+  }
+  /* line 1710, ../sass/screen.scss */
+  body #webdev-welcome div h1 {
+    color: #1c1c1c;
+  }
+  /* line 1712, ../sass/screen.scss */
+  body #webdev-welcome div h1 span {
+    text-transform: uppercase;
+  }
+  /* line 1714, ../sass/screen.scss */
+  body #webdev-welcome div h1 span.webdev-welcome-title {
+    font: 800 2em 'Raleway';
+  }
+  /* line 1717, ../sass/screen.scss */
+  body #webdev-welcome div h1 span.webdev-welcome-subtitle {
+    font: 1.9em 'Raleway';
+  }
+  /* line 1720, ../sass/screen.scss */
+  body #webdev-welcome div h1 span.color-red {
+    color: #eb3719;
+  }
+  /* line 1725, ../sass/screen.scss */
+  body #webdev-welcome div h2 {
+    color: #1c1c1c;
+    margin-bottom: 3rem;
+  }
+  /* line 1728, ../sass/screen.scss */
+  body #webdev-welcome div h2 .webdev-welcome-subtitle {
+    font: 1em 'Poppins';
+  }
+  /* line 1739, ../sass/screen.scss */
+  body #webdev-Carousel .carousel-inner .carousel-item .row .carousel-caption h3 {
+    width: 80%;
+  }
+  /* line 1745, ../sass/screen.scss */
+  body #webdev-Carousel .carousel-inner .template-url {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  /* line 1755, ../sass/screen.scss */
+  body #featured-about .title-about {
+    font: bold 4em 'Poppins';
+  }
+  /* line 1757, ../sass/screen.scss */
+  body #featured-about .title-about .title-text {
+    display: block;
+    margin-top: 0;
+  }
+  /* line 1764, ../sass/screen.scss */
+  body #featured-training .title-training {
+    font: bold 4em 'Poppins';
+  }
+  /* line 1766, ../sass/screen.scss */
+  body #featured-training .title-training .title-training-text {
+    display: block;
+    margin-top: 0;
+  }
+  /* line 1775, ../sass/screen.scss */
+  body #services-area div.service-container img {
+    width: 100%;
+  }
+  /* line 1781, ../sass/screen.scss */
+  body .container {
+    max-width: 100%;
+  }
+  /* line 1784, ../sass/screen.scss */
+  body .carousel-caption {
+    z-index: 10;
+    bottom: 3rem;
+  }
+  /* line 1787, ../sass/screen.scss */
+  body .carousel-caption h3 {
+    font-size: 1.75em;
+    padding-bottom: 20px;
+  }
+  /* line 1791, ../sass/screen.scss */
+  body .carousel-caption p {
+    font-size: 1.25em;
+    padding-bottom: 20px;
+  }
+  /* line 1797, ../sass/screen.scss */
+  body #contact-area #location {
+    font-size: 1.5em;
+  }
+  /* line 1800, ../sass/screen.scss */
+  body #contact-area .location-separator {
+    display: none;
+  }
+  /* line 1805, ../sass/screen.scss */
+  body #consult-area #com-question {
+    font-size: 1.5em;
+  }
+  /* line 1808, ../sass/screen.scss */
+  body #consult-area .com-question-red {
+    font-size: 1.5em;
+  }
+  /* line 1811, ../sass/screen.scss */
+  body #consult-area .location-separator {
+    display: none;
+  }
+  /* line 1818, ../sass/screen.scss */
+  body #training-3 .row .col-lg-4 img {
+    width: 80%;
+    height: auto;
+    border: 2px solid #eb3719;
+  }
+  /* line 1827, ../sass/screen.scss */
+  body #featured-training .title-training {
+    font: 600 1em 'Poppins';
+    color: #ffffff;
+    height: 100%;
+    display: block;
+  }
+  /* line 1832, ../sass/screen.scss */
+  body #featured-training .title-training .title-training-text {
+    display: block;
+    font: 2em 'Poppins';
+  }
+  /* line 1839, ../sass/screen.scss */
+  body #featured-webdev {
+    /* The image used */
+    background-image: url("../img/webdevelopment1.jpg");
+    /* Set a specific height */
+    height: 500px;
+    padding: 3rem 0;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* line 1852, ../sass/screen.scss */
+  body #featured-webdev .row {
+    margin: 0;
+  }
+  /* line 1854, ../sass/screen.scss */
+  body #featured-webdev .row .title-webdev {
+    height: 80%;
+    display: block;
+  }
+  /* line 1857, ../sass/screen.scss */
+  body #featured-webdev .row .title-webdev img {
+    height: auto;
+    width: 100%;
+  }
+  /* line 1861, ../sass/screen.scss */
+  body #featured-webdev .row .title-webdev h1 {
+    font: 800 2rem 'Poppins';
+    color: #ffffff;
+  }
+  /* line 1868, ../sass/screen.scss */
+  body #webdev-welcome {
+    margin-top: 5rem;
+  }
+  /* line 1871, ../sass/screen.scss */
+  body #webdev-welcome div h1 {
+    color: #1c1c1c;
+  }
+  /* line 1873, ../sass/screen.scss */
+  body #webdev-welcome div h1 span {
+    text-transform: uppercase;
+  }
+  /* line 1875, ../sass/screen.scss */
+  body #webdev-welcome div h1 span.webdev-welcome-title {
+    font: 800 2em 'Raleway';
+  }
+  /* line 1878, ../sass/screen.scss */
+  body #webdev-welcome div h1 span.webdev-welcome-subtitle {
+    font: 1.9em 'Raleway';
+  }
+  /* line 1881, ../sass/screen.scss */
+  body #webdev-welcome div h1 span.color-red {
+    color: #eb3719;
+  }
+  /* line 1886, ../sass/screen.scss */
+  body #webdev-welcome div h2 {
+    color: #1c1c1c;
+    margin-bottom: 3rem;
+  }
+  /* line 1889, ../sass/screen.scss */
+  body #webdev-welcome div h2 .webdev-welcome-subtitle {
+    font: 1em 'Poppins';
+  }
+}
+@media (max-width: 380px) {
+  /* line 1898, ../sass/screen.scss */
+  body #featured-about {
+    padding: 1rem 0;
+  }
+  /* line 1901, ../sass/screen.scss */
+  body #featured-training {
+    padding: 1rem 0;
+  }
+  /* line 1907, ../sass/screen.scss */
+  body #consult-area #consult-form #consultForm #tab-name {
+    display: none;
+  }
+  /* line 1910, ../sass/screen.scss */
+  body #consult-area #consult-form #consultForm #mobile-name {
+    display: block;
+  }
+  /* line 1915, ../sass/screen.scss */
+  body #consult-area #consult-question {
+    float: right;
+  }
+  /* line 1918, ../sass/screen.scss */
+  body #consult-area h2 {
+    font: bold 1.75em 'Arial';
+    margin: 0.5rem auto;
+    color: #ffffff;
+  }
+  /* line 1923, ../sass/screen.scss */
+  body #consult-area p {
+    font-size: 1em;
+    color: #000000;
+  }
+  /* line 1928, ../sass/screen.scss */
+  body #featured-webdev {
+    /* The image used */
+    background-image: url("../img/webdevelopment1.jpg");
+    /* Set a specific height */
+    height: 500px;
+    padding: 3rem 0;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* line 1941, ../sass/screen.scss */
+  body #featured-webdev .row {
+    margin: 0;
+  }
+  /* line 1943, ../sass/screen.scss */
+  body #featured-webdev .row .title-webdev {
+    height: 80%;
+    display: block;
+  }
+  /* line 1946, ../sass/screen.scss */
+  body #featured-webdev .row .title-webdev img {
+    height: auto;
+    width: 100%;
+  }
+  /* line 1950, ../sass/screen.scss */
+  body #featured-webdev .row .title-webdev h1 {
+    font: 800 2rem 'Poppins';
+    color: #ffffff;
+  }
+  /* line 1957, ../sass/screen.scss */
+  body #webdev-welcome {
+    margin-top: 3rem;
+  }
+  /* line 1960, ../sass/screen.scss */
+  body #webdev-welcome div h1 {
+    color: #1c1c1c;
+  }
+  /* line 1962, ../sass/screen.scss */
+  body #webdev-welcome div h1 span {
+    text-transform: uppercase;
+  }
+  /* line 1964, ../sass/screen.scss */
+  body #webdev-welcome div h1 span.webdev-welcome-title {
+    font: 800 1.5em 'Raleway';
+  }
+  /* line 1967, ../sass/screen.scss */
+  body #webdev-welcome div h1 span.webdev-welcome-subtitle {
+    font: 1.9em 'Raleway';
+  }
+  /* line 1970, ../sass/screen.scss */
+  body #webdev-welcome div h1 span.color-red {
+    color: #eb3719;
+  }
+  /* line 1975, ../sass/screen.scss */
+  body #webdev-welcome div h2 {
+    color: #1c1c1c;
+    margin-bottom: 3rem;
+  }
+  /* line 1978, ../sass/screen.scss */
+  body #webdev-welcome div h2 .webdev-welcome-subtitle {
+    font: 1em 'Poppins';
+  }
+}
+
+/* line 1987, ../sass/screen.scss */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f5f5f5;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */

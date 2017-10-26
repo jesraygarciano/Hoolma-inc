@@ -1,0 +1,1999 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+
+@import "compass/reset";
+$red: #eb3719;
+$gray: #c3c3c3;
+$black: #1c1c1c;
+$dark-red: #ba2918;
+$white: #ffffff;
+html {
+  font: 1em 'Poppins' !important;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 5.5rem;
+  margin-bottom: 60px;
+  color: #5a5a5a;
+  #blog-unlock{
+    width: 100%;
+    text-align: center;
+    padding: 1rem 1rem;
+    background-color: $red;
+    color: #ffffff;
+  }
+  #hoolma-blog{
+    width: 100%;
+    padding: 1rem 1rem;
+    .blog-post{
+      margin: 2rem auto;
+      .blog-author{
+        /*width: 35%;*/
+        vertical-align: top;
+        display: inline-block;
+        img{
+          width: 100%;
+        }
+      }
+      .blog-article{
+        overflow: hidden;
+        /*width: 64%;*/
+        vertical-align: top;
+        display: inline-block;
+        height: inherit;
+        .blog-sub {
+          margin: 5px 0;
+          i {
+            margin-right: 5px;
+          }
+          a {
+            font-weight: 600;
+          }
+          a:hover {
+            text-decoration: none;
+            color: $red;
+          }
+          .author {
+            margin-right: 10px;
+          }
+          .v-separator{
+            display: inline-block;
+            vertical-align: top;
+            background-color: $black;
+            width: 1px;
+            height: 25px;
+            margin: 0 1rem;
+          }
+          .categories {
+            display: inline-block;
+            .category {
+              display: inline-block;
+              vertical-align: middle;
+              font-size: 0.75em;
+            }
+            .category:hover {
+              text-decoration: none;
+            }
+          }
+        }
+        h2{
+          font: 600 1.5em 'Poppins';
+        }
+        article{
+          font-size: 0.85em;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+
+  /*NAVBAR EDIT HERE*/
+  #nav-main{
+    div {
+      button:focus{
+        outline: none;
+      }
+      div{
+        ul{
+          li{
+            font: 500 1em 'Poppins';
+            a:hover{
+              text-decoration: none;
+              color: $red;
+            }
+            .dropdown-menu{
+              a{
+                font: 500 1em 'Poppins';
+                color: $gray;
+              }
+              a:focus, a:active, a:hover{
+                text-decoration: none;
+                color: $red;
+                background-color: transparent;
+              }
+            }
+          }
+        }
+        a{
+          button{
+            background-color: $red;
+            font-weight: bold;
+          }
+        }
+        a:hover{
+          button{
+            background-color: $dark-red;
+          }
+        }
+      }
+    }
+  }
+  .navbar-toggler-right {
+    position: absolute;
+    right: 0;
+    top: 0.75rem !important;
+  }
+  .navbar-light
+  .navbar-toggler-icon {
+    background-image: url(../img/nav-toggle.png);
+    width: 1.8em !important;
+    height: 1.8em !important;
+  }
+  .navbar-light .navbar-toggler {
+    border: none;
+  }
+  .bg-white{
+    background-color: #ffffff;
+  }
+  .red{
+    color: $red;
+  }
+
+  /*END OF NAVBAR*/
+  .page-btn{
+    .btn{
+      border-radius: 0 !important;
+      background-color: $red;
+    }
+    .btn:hover, .btn:focus{
+      background-color: $red;
+      cursor: pointer;
+    }
+    .btn-outline-danger {
+      color: white;
+      font: 600 1em "Raleway", sans-serif;
+      text-transform: uppercase;
+    }
+    .btn-outline-danger:hover, .btn-outline-danger:focus{
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+  #myCarousel{
+    .page-btn{
+      .btn{
+        font: normal 1em 'Poppins';
+      }
+      .btn:hover{
+        background-color: $dark-red;
+      }
+    }
+    .carousel-indicators li {
+      max-width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      margin-right: 5px;
+      margin-left: 5px;
+      margin-bottom: 20px;
+    }
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 4rem;
+    }
+    /* Since positioning the image, we need to help out the caption */
+    .carousel-caption {
+      z-index: 10;
+      bottom: 3rem;
+      h3{
+        text-transform: uppercase;
+        font-size: 2em;
+        margin-bottom: 2rem;
+        padding: 15px 0 15px 0;
+        font: 800 2em "Poppins", sans-serif;
+      }
+      .carousel-subtext{
+        font: 300 1em "Raleway", sans-serif;
+        padding-bottom: 50px;
+        line-height: 175%;
+      }
+    }
+    .carousel-indicators .active{
+      background-color: $red;
+    }
+
+    /* Declare heights because of positioning of img element */
+    .carousel-item {
+      height: 32rem;
+      background-color: #777;
+    }
+    .carousel-item > img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 32rem;
+    }
+  }
+
+
+  #webdev-Carousel{
+    .carousel-inner{
+      .carousel-item{
+        .row{
+          .carousel-caption{
+            h2{
+              a{
+                text-decoration: none;
+                color: $white;
+              }
+              a:hover{
+                color: $gray;
+              }
+            }
+            h3{
+              width: 50%;
+            }
+          }
+          .template-url{
+            a:hover{
+              opacity: 0.9;
+            }
+          }
+        }
+      }
+    }
+    .page-btn{
+      .btn{
+        font: normal 1em 'Poppins';
+      }
+    }
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 4rem;
+    }
+    /* Since positioning the image, we need to help out the caption */
+    .carousel-caption {
+      z-index: 10;
+      bottom: 3rem;
+      h2{
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        font: 800 2em "Poppins", sans-serif;
+      }
+      h3{
+        margin-bottom: 2rem;
+        font: 400 1em "Poppins", sans-serif;
+      }
+    }
+    .carousel-indicators .active{
+      background-color: $red;
+    }
+
+    /* Declare heights because of positioning of img element */
+    .carousel-item {
+      height: 40rem;
+      background-image: url("../img/webdev-slide-background.jpg");
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    img {
+      position: absolute;
+      top: -35rem;
+      left: 25rem;
+      min-width: 100%;
+      height: 40rem;
+    }
+    }
+  }
+
+
+  /* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+  .separator{
+    width: 50px;
+    height: 3px;
+    margin-bottom: 30px;
+    background-color: $red;
+  }
+  .w-20px{
+    width: 20px;
+  }
+  .help-block{
+    color: $red;
+    font: 100 1em 'Poppins';
+  }
+  .alert{
+    background-color: transparent;
+    h4{
+      font-size: 2em;
+    }
+  }
+
+  /*-----END OF CAROUSEL-----*/
+  #content{
+    width: 60%;
+    margin: 2rem auto;
+    div{
+      h1{
+        color: $black;
+        span{
+          &.main-title{
+            font: 900 2.5rem "Raleway", sans-serif;
+          }
+          &.main-subtitle{
+            font: 700 1.5rem "Raleway", sans-serif;
+          }
+          &.color-red{
+            color: $red;
+          }
+        }
+      }
+      p{
+        font: inherit;
+        margin: 30px 0;
+        .btn{
+          margin-top:1em;
+          border-radius: 0 !important;
+          color: #ffffff;
+        }
+        .btn:hover, .btn:focus{
+          background-color: $dark-red;
+        }
+        .btn-outline-danger {
+          font-weight: bold;
+          color: #ffffff;
+          border-color: $red;
+        }
+        .btn-outline-danger:hover, .btn-outline-danger:focus{
+          color: #ffffff;
+          border-color: #d0d0d0;
+        }
+      }
+    }
+  }
+  #webdev-welcome{
+    width: 60%;
+    margin: 5rem auto 2rem;
+    div{
+      h1{
+        color: $black;
+        span{
+          text-transform: uppercase;
+          &.webdev-welcome-title{
+            font: 800 2.5em 'Raleway';
+          }
+          &.webdev-welcome-subtitle{
+            font: 1.9em 'Raleway';
+          }
+          &.color-red{
+            color: $red;
+          }
+        }
+      }
+      h2{
+        color: $black;
+        margin-bottom: 3rem;
+        .webdev-welcome-subtitle{
+          font: 1em 'Poppins';
+        }
+      }
+      .page-btn{
+        .btn:hover{
+          background-color: $dark-red;
+        }
+      }
+    }
+  }
+
+
+  #training-welcome{
+    width: 60%;
+    margin: 2rem auto;
+    div{
+      h1{
+        color: $black;
+        span{
+          &.training-welcome-title{
+            font: 600 2.5em 'Arial';
+          }
+          &.training-welcome-subtitle{
+            font: 1.9em 'Arial';
+          }
+          &.color-red{
+            color: $red;
+          }
+        }
+      }
+      h2{
+        color: $black;
+            .training-welcome-subtitle{
+            font: 1.5em 'Arial';
+        }
+      }
+    }
+  }
+  #training-video{
+    width: 60%;
+    margin: 2rem auto;
+    div{
+      div{
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+      }
+      h1{
+        color: $black;
+        span{
+          &.training-video-title{
+            font: 2.0em 'Arial';
+
+          }
+        }
+      }
+      h2{
+        color: $black;
+        .training-welcome-subtitle{
+          font: 1.5em 'Arial';
+        }
+      }
+    }
+  }
+  #training-count{
+    .row{
+      margin: 0;
+    }
+  }
+  #training-start{
+    width: 60%;
+    margin: 2rem auto;
+    div{
+      h1{
+        color: $black;
+        span{
+          &.training-start-title{
+            font: 600 2.5em 'Arial';
+          }
+          &.training-start-subtitle{
+            font: 1.9em 'Arial';
+          }
+          &.color-red{
+            color: $red;
+          }
+        }
+      }
+      h2{
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+        color: $black;
+        .training-start-subtitle{
+          font: 1.5em 'Arial';
+        }
+      }
+      p{
+        .btn{
+          color:#ffffff;
+          padding: 14px 54px;
+          //border: 1px black solid;
+          font-weight: 700;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+          background-color: $red;
+        }
+        .btn-outline-danger {
+          color: #ffffff;
+        }
+        .btn-outline-danger:hover, .btn-outline-danger:focus{
+          background-color: $dark-red;
+        }
+      }
+    }
+  }
+
+  .horizontal-line{
+    border: 1px solid $red;
+  }
+  .count
+  {
+    line-height: 100px;
+    color: $red;
+    margin-left:30px;
+    font: 600 7.5em 'Arial';
+  }
+  .counter-label
+  {
+    line-height: 50px;
+    color:black;
+    margin-left:30px;
+    font-size:25px;
+  }
+
+  .services-bg {
+    /* The image used */
+    //background-image: url("../img/content_bg.jpg");
+    background-color: #e7e8e9;
+    /* Set a specific height */
+    height: auto;
+    padding: 3rem 0;
+    //
+    ///* Create the parallax scrolling effect */
+    //background-attachment: fixed;
+    //background-position: center;
+    //background-repeat: no-repeat;
+    //background-size: cover;
+  }
+  #featured-about{
+    /* The image used */
+    background-image: url("../img/team.jpg");
+
+    /* Set a specific height */
+    height: 350px;
+    padding: 3rem 0;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .title-about{
+      font: bold 3em 'Poppins';
+      color: #ffffff;
+      height: 100%;
+      display: block;
+      .title-text{
+        display: block;
+        margin-top: 6rem;
+      }
+    }
+  }
+
+  #quote-hero{
+    background-image: url("../img/quote-hero.jpg");
+    /* Set a specific height */
+    height: 250px;
+    padding: 3rem 0;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+      .title-quote h1{
+        font: 800 2rem 'Poppins';
+        color: #ffffff;
+        height: 100%;
+        display: block;
+      }
+      .quote-text{
+        font: 500 1.5rem 'Poppins';
+        color: #ffffff;
+        height: 100%;
+        display: block;
+      }
+      .subquote-text{
+        font: 500 1rem 'Poppins';
+        color: #ffffff;
+        height: 100%;
+        display: block;
+      }
+
+    }
+
+  #featured-training{
+    /* The image used */
+    background-image: url("../img/jumpstart.jpeg");
+
+    /* Set a specific height */
+    height: 400px;
+    padding: 3rem 0;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .title-training{
+      font: 600 2em 'Poppins';
+      color: #ffffff;
+      height: 100%;
+      display: block;
+      .title-training-text{
+        display: block;
+        //margin-top: 2rem;
+        font: 2em 'Poppins';
+      }
+    }
+  }
+  #featured-webdev{
+    /* The image used */
+    background-image: url("../img/webdevelopment1.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+    padding: 3rem 0;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .row{
+      margin: 0;
+    .title-webdev{
+      height: 100%;
+      display: block;
+        img{
+          height: auto;
+          width: 80%;
+        }
+      h1{
+        margin-top:3rem;
+        font: 800 3em 'Poppins';
+        color: #ffffff;
+      }
+     }
+    }
+  }
+
+  #services-area{
+    text-align: left;
+    .service-main-title{
+      //font: 900 2em "Raleway", sans-serif;
+      //color: #000000;
+      margin-bottom: 10px;
+      font: 900 2.5rem "Raleway", sans-serif;
+      color: #1c1c1c;
+      //margin: 1rem 0 2rem 0;
+    }
+    div{
+      &.service-container{
+        width: 24.9999%;
+        margin: 1rem 2.5rem;
+        color: #3e3e3e;
+        img{
+          border: solid 2px $red;
+          height: auto;
+          width: 330px;
+        }
+        .main-desc{
+          font: 800 1.5em "Poppins", sans-serif;
+          margin: 15px 0;
+          color:#3e3e3e;
+          //text-align: left;
+        }
+        .sub-desc{
+          font-size: 1em;
+          margin-bottom: 10px;
+          text-align: left;
+        }
+        .desc-btn{
+          @extend .page-btn;
+          .btn:hover{
+            background-color: $dark-red;
+          }
+        }
+      }
+    }
+  }
+
+  #services-3{
+    #services-3head{
+      //background-color:$red;
+      background-image: url("../img/web-design1.jpeg");
+      background-attachment: fixed;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-right: -15px;
+      margin-left: -15px;
+      h1{
+        font: 800 2.5rem "Raleway", sans-serif;
+        color: #ffffff;
+        margin: 1rem 0 2rem 0;
+      }
+      div{
+        font: 500 1em "Poppins", sans-serif;
+        color: #ffffff;
+        margin-bottom: 1rem;
+      }
+    }
+    .row{
+      .desc-btn{
+        margin-top:2rem;
+        .btn:hover{
+          background-color: $dark-red;
+        }
+      }
+      #home-webdesign{
+        background-image: url("../img/web-design.jpeg");
+        h2{
+          text-transform: uppercase;
+          font: 800 1.8rem "Poppins", sans-serif;
+          color: #ffffff;
+          margin: 3rem 0;
+        }
+        h3{
+          font: 300 1.1em "Poppins", sans-serif;
+          color: #ffffff;
+          margin-bottom:2rem;
+        }
+        p{
+          padding-left: 3rem;
+          padding-right: 3rem;
+          color: #c1c1c1;
+        }
+      }
+      #home-socialmedia{
+        background-image: url("../img/socialmedia-home.jpeg");
+        //background-attachment: fixed;
+        //background-position: center;
+        //background-repeat: no-repeat;
+        //background-size: cover;
+        h2{
+          text-transform: uppercase;
+          font: 800 1.8em "Raleway", sans-serif;
+          color: #ffffff;
+          margin: 3rem 0;
+        }
+        h3{
+          font: 300 1.1em "Poppins", sans-serif;
+          color: #ffffff;
+          margin-bottom:2rem;
+        }
+        p{
+          padding-left: 3rem;
+          padding-right: 3rem;
+          color: #c1c1c1;
+        }
+        .desc-btn{
+          margin-top:2rem;
+        }
+      }
+      #home-training{
+        background-image: url("../img/training-home.jpg");
+        h2{
+          text-transform: uppercase;
+          font: 800 1.8em "Raleway", sans-serif;
+          color: #ffffff;
+          margin: 3rem 0;
+        }
+        h3{
+          font: 300 1.1em "Poppins", sans-serif;
+          color: #ffffff;
+          margin-bottom:2rem;
+        }
+        p{
+          padding-left: 3rem;
+          padding-right: 3rem;
+          color: #c1c1c1;
+        }
+        .desc-btn{
+          margin-top:2rem;
+        }
+      }
+    }
+  }
+
+
+
+  #start-project{
+    .row{
+      #project-text{
+        background-image: url("../img/start-project2.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        h2{
+          text-transform: uppercase;
+          font: 800 1.8em "Raleway", sans-serif;
+          color: #ffffff;
+          margin: 3rem 0;
+        }
+        h3{
+          font: 800 1.8em "Raleway", sans-serif;
+          color: #ffffff;
+          margin: -2rem 0 3rem 0;
+        }
+        p{
+          font: 300 1.1em "Poppins", sans-serif;
+          padding-left: 3rem;
+          padding-right: 3rem;
+          color: #c1c1c1;
+        }
+        .desc-btn{
+          @extend .page-btn;
+          margin-top:2rem;
+          .btn:hover{
+            background-color: $dark-red;
+          }
+        }
+      }
+    }
+  }
+
+  #webdev-getin-touch{
+    .row{
+      #getin-touch-text{
+        background-color: $red;
+/*        background-image: url("../img/start-project2.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;*/
+        h2{
+          text-transform: uppercase;
+          font: 800 1.8em "Raleway", sans-serif;
+          color: #ffffff;
+          margin: 3rem 0;
+        }
+        h3{
+          font: 800 1.8em "Raleway", sans-serif;
+          color: #ffffff;
+          margin: -2rem 0 3rem 0;
+        }
+        p{
+          font: 300 1.1em "Poppins", sans-serif;
+          padding-left: 3rem;
+          padding-right: 3rem;
+          color: #c1c1c1;
+        }
+        .desc-btn{
+          @extend .page-btn;
+          margin-top:2rem;
+          .btn:hover{
+            background-color: $dark-red;
+          }
+        }
+      }
+    }
+  }
+
+  #pricing-table{
+    padding: 3rem 0;
+    background-color: #ffffff;
+
+    /* The image used */
+    //background-image: url("../img/content_bg.jpg");
+    //background-color:#ffffff;
+    /* Set a specific height */
+    height: auto;
+    //padding: 3rem 0;
+    //
+    ///* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    #pricing-title{
+      font: 900 2.5em "Raleway", sans-serif;
+      margin: 0.5rem auto;
+      color: #313132;
+    }
+    .pricing-sub-desc{
+      font: 700 1em 'Poppins', sans-serif;
+      color: $black;
+    }
+    .pricing-container{
+      vertical-align: top;
+      width: 24%;
+      margin: 2rem 0;
+      background-color: #313132;
+      p{
+        color:#bebebe;
+      }
+      .pricing-parallax{
+        font: 700 1.5em 'Poppins', sans-serif;
+        color: #ffffff;
+        border: solid 4px $black;
+        padding: 15px 0;
+        width: 100%;
+        height: auto;
+      }
+      .custom-container-cover{
+        @extend .pricing-parallax;
+        background: url("../img/custom.jpg") no-repeat 50% 50%;
+        background-size: cover;
+      }
+      .ecom-container-cover{
+        @extend .pricing-parallax;
+        background: url("../img/ecommerce-2.jpg") no-repeat 50% 50%;
+        background-size: cover;
+      }
+      .cms-container-cover{
+        @extend .pricing-parallax;
+        background: url("../img/cms.jpg") no-repeat 50% 50%;
+        background-size: cover;
+      }
+      .info-container-cover{
+        @extend .pricing-parallax;
+        background: url("../img/infosite.jpg") no-repeat 50% 50%;
+        background-size: cover;
+      }
+      .pricing-display{
+        display: none;
+      }
+      .pricing-desc{
+        width: 70%;
+        margin: 25px auto;
+      }
+      .pricing-price{
+        font: 800 1.5em 'Arial';
+        color: $red;
+      }
+      .pricing-btn{
+        .btn{
+          font-weight: bolder;
+          background-color: $black;
+          border: none;
+          margin-bottom: 1rem;
+        }
+        .btn:hover{
+          background-color: $red;
+        }
+      }
+      .pricing-features{
+        margin: 10px auto;
+        a{
+          text-decoration: none;
+          color: $red;
+        }
+        a:hover{
+          text-decoration: none;
+          color: $dark-red;
+        }
+      }
+    }
+  }
+
+
+  #contact-area{
+    padding: 1rem 0 3rem 0;
+    //background: url("../img/form_bg.jpg");
+    background-color:$black;
+    #form-con{
+      margin-bottom: 3rem;
+      float: left;
+    }
+    #location-con{
+      float: right;
+    }
+    h2{
+      font: bold 1.75em 'Arial';
+      margin: 0.5rem auto;
+      color: #ffffff;
+    }
+    p{
+      font-size: 1em;
+      color: #ffffff;
+    }
+    form{
+      .h-64{
+        height: 64px;
+      }
+      input{
+        background: transparent;
+        border: solid 1px #ffffff;
+        color: #ffffff;
+      }
+      textarea{
+        background: transparent;
+        border: solid 1px #ffffff;
+        color: #ffffff;
+      }
+      .has-error{
+        input{
+          border: solid 1px $red;
+        }
+        textarea{
+          border: solid 1px $red;
+        }
+      }
+      .btn:hover{
+        background-color: $dark-red;
+      }
+    }
+    #location{
+      font-size: 1.5em;
+    }
+    .location-separator{
+      background-color: #ffffff;
+      width: 1px;
+      height: 300px;
+    }
+  }
+  #footer-con{
+    background-color: $black;
+    #links-con{
+      aside{
+        /*&#site-logo{
+          img{
+            padding: 2px;
+          }
+          img:hover{
+            background-color: $red;
+            border-radius: 50%;
+            transition: 0.5s;
+          }
+        }*/
+        text-align: left;
+        width: 24.9999%;
+        margin: 2rem 1rem;
+        display: inline-block;
+        vertical-align: top;
+        h3{
+          font-size: 1.25em;
+          color: #ffffff;
+        }
+        .hoolma-site{
+          ul{
+            list-style: none;
+          }
+          a{
+            font-size: 1.10em;
+            color: #ffffff;
+            display: block;
+            margin: 10px 0 10px 0;
+          }
+          a:hover{
+            text-decoration: none;
+            color: $red;
+            transition: 0.3s;
+          }
+        }
+        /*.hoolma-socials{
+          display: inline;
+          a{
+            color: #ffffff;
+            width: 40px;
+            height: 40px;
+            margin: 5px;
+            display: inline-block;
+            text-align: center;
+            padding: 10px 0;
+            transition: 0.6s;
+            border: 1px solid #ffffff;
+          }
+          a:hover{
+            border-radius: 50%;
+            border-color: $red;
+            color: $red;
+            transition: 0.6s;
+          }
+        }*/
+      }
+    }
+    .hoolma-social-icon{
+      margin: 0.5rem 0.5rem 0 0;
+      a{
+        img{
+        }
+      }
+      a:hover{
+         img{
+           background-color: $red;
+           transition: all 0.3s ease-in-out;
+         }
+       }
+    }
+  }
+
+  #quote-area{
+    padding: 1rem 0 3rem 0;
+    #quote-form{
+      border-radius: 0.5rem;
+      margin-top: -5rem;
+      margin-bottom: 3rem;
+      float: left;
+      background-color:#efefef;
+      border: 1px solid #c2c2c2;
+      #quote-title h2{
+        color:$red;
+        font: bold 1em 'Poppins';
+      }
+      #quoteForm{
+        em{
+          font-size: 0.75em;
+        }
+        input{
+          background: transparent;
+          border: solid 2px #616162;
+          color: #000000;
+          height: 3rem;
+          font: 200 1em 'Poppins';
+        }
+        textarea{
+          background: transparent;
+          border: solid 2px #616162;
+          color: #000000;
+        }
+        select{
+
+        }
+        .has-error{
+          input{
+            border: solid 1px $red;
+          }
+          textarea{
+            border: solid 1px $red;
+          }
+        }
+      }
+    }
+    #quote-question{
+      float: right;
+      quote-support{
+        backgound-color:pink;
+      }
+    }
+    h2{
+      font: bold 1.75em 'Arial';
+      margin: 0.5rem auto;
+      color: #ffffff;
+    }
+    p{
+      font-size: 1em;
+      color: #000000;
+    }
+    form{
+      .h-64{
+        height: 64px;
+      }
+      input{
+        background: transparent;
+        border: solid 1px #000000;
+        color: #000000;
+      }
+      textarea{
+        background: transparent;
+        border: solid 1px #000000;
+        color: #000000;
+      }
+      .has-error{
+        input{
+          border: solid 1px $red;
+        }
+        textarea{
+          border: solid 1px $red;
+        }
+      }
+    }
+    #com-question{
+      font-size: 1.5em;
+      color: #000000;
+    }
+    .com-question-red{
+      font-size: 1.5em;
+      color: $red;
+    }
+    .location-separator{
+      background-color: #ffffff;
+      width: 1px;
+      height: 300px;
+    }
+  }
+
+
+/*CONSULT US*/
+  #consult-area{
+    padding: 1rem 0 3rem 0;
+    //background: url("../img/form_bg1.jpg");
+    #consult-form{
+      margin-bottom: 3rem;
+      float: left;
+      background-color:#efefef;
+      #consult-title{
+        background-color:$red;
+        margin-bottom:3rem;
+        padding: 1rem 2rem;
+        #consult-subtitle{
+          color:#ffffff;
+        }
+      }
+      #consultForm{
+        em{
+          font-size: 0.75em;
+        }
+        input{
+          background: transparent;
+          border: solid 1px #000000;
+          color: #000000;
+        }
+        textarea{
+          background: transparent;
+          border: solid 1px #000000;
+          color: #000000;
+        }
+        .has-error{
+          input{
+            border: solid 1px $red;
+          }
+          textarea{
+            border: solid 1px $red;
+          }
+        }
+        #tab-name{
+          .name{
+            vertical-align: top;
+            width: 49.2%;
+            margin: 0 auto;
+          }
+        }
+        #mobile-name{
+          display: none;
+        }
+      }
+    }
+    #consult-question{
+      float: right;
+    }
+    h2{
+      font: bold 1.75em 'Arial';
+      margin: 0.5rem auto;
+      color: #ffffff;
+    }
+    p{
+      font-size: 1em;
+      color: #000000;
+    }
+    form{
+      .h-64{
+        height: 64px;
+      }
+      input{
+        background: transparent;
+        border: solid 1px #000000;
+        color: #000000;
+      }
+      textarea{
+        background: transparent;
+        border: solid 1px #000000;
+        color: #000000;
+      }
+      .has-error{
+        input{
+          border: solid 1px $red;
+        }
+        textarea{
+          border: solid 1px $red;
+        }
+      }
+    }
+    #com-question{
+      font-size: 1.5em;
+      color: #000000;
+    }
+    .com-question-red{
+      font-size: 1.5em;
+      color: $red;
+    }
+    .location-separator{
+      background-color: #ffffff;
+      width: 1px;
+      height: 300px;
+    }
+  }
+
+  .consult-btn{
+    .btn{
+      color:#ffffff;
+      padding: 14px 54px;
+      //border: 1px black solid;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      background-color: $red;
+    }
+    .btn:hover, .btn:focus{
+      background-color: $red;
+      cursor: pointer;
+      color: #000000;
+    }
+    .btn-outline-danger {
+      color: $red;
+      border-color: #d0d0d0;
+    }
+    .btn-outline-danger:hover, .btn-outline-danger:focus{
+      color: #ffffff;
+      border-color: #d0d0d0;
+    }
+  }
+  /*END CONSULT US*/
+
+  /* MARKETING CONTENT
+-------------------------------------------------- */
+
+  /* Center align the text within the three columns below the carousel */
+  .marketing {
+    padding-top: 1.5rem;
+    .col-lg-4 {
+      margin-bottom: 1.5rem;
+      text-align: center;
+      p {
+        margin-right: .75rem;
+        margin-left: .75rem;
+      }
+    }
+    .col-lg-6 {
+      margin-bottom: 1.5rem;
+      text-align: center;
+      p {
+        margin-right: .75rem;
+        margin-left: .75rem;
+      }
+    }
+    h2 {
+      margin-bottom:1rem;
+      padding: 1rem 1rem;
+    }
+    #team-quote {
+      font-size: 3em;
+    }
+  }
+
+  #team-2{
+    margin: 0 auto;
+    width: 1000px;
+    .row{
+      margin: 0;
+      .col-lg-5{
+        img{
+          width: 240px;
+          height: auto;
+        }
+        a{
+          color: $black;
+        }
+        a:hover{
+          color: $red;
+        }
+      }
+    }
+  }
+  #team-3{
+    .row{
+      margin: 0;
+      .col-lg-4{
+        img{
+          width: 240px;
+          height: auto;
+        }
+        a{
+          color: $black;
+        }
+        a:hover{
+          color: $red;
+        }
+      }
+    }
+  }
+  #training-3{
+    .row{
+      margin: 0;
+      .col-lg-4{
+        img{
+          width: 100%;
+          height: auto;
+          border: 2px solid $red;
+        }
+        h2{
+          font: bold 1.85em 'Arial';
+        }
+        p {
+          a {
+            color: $black;
+          }
+          a:hover {
+            color: $white;
+          }
+          .btn{
+            border-radius: 0 !important;
+            margin-top: 1rem;
+          }
+          .btn:hover, .btn:focus{
+            background-color: $red;
+          }
+          .btn-outline-danger {
+            font-weight: bold;
+            color: $white;
+            border-color: $red;
+          }
+          .btn-outline-danger:hover, .btn-outline-danger:focus{
+            background-color: $dark-red;
+          }
+        }
+      }
+    }
+  }
+  #webdev-3{
+    margin-top: 2rem;
+    background-color:#e7e7e9;
+    .row{
+      margin: 0;
+      .col-lg-4{
+        //background-color:#ffffff;
+        img{
+          width: 70%;
+          height: 30%;
+          border: 1px solid $red;
+        }
+        h2{
+          font: bold 1.85em 'Arial';
+        }
+        p {
+          a {
+            color: $black;
+          }
+          a:hover {
+            color: $white;
+          }
+          .page-btn{
+            @extend .page-btn;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 992px) {
+    #training-3 {
+      .row {
+        .col-lg-4 {
+          img {
+            width: 50%;
+            height: auto;
+            border: 2px solid $red;
+          }
+        }
+      }
+    }
+    #webdev-Carousel {
+      .carousel-inner {
+        .carousel-item {
+          .row {
+            .carousel-caption {
+              h3 {
+                width: 40%;
+              }
+            }
+          }
+        }
+      }
+    }
+    #contact-area{
+      .container{
+        width:100%;
+      }
+    }
+    #content{
+      width: 90%;
+    }
+    #training-welcome{
+      width: 90%;
+    }
+    #training-video{
+      width: 90%;
+    }
+    #training-start{
+      width: 90%;
+    }
+    #hoolma-blog{
+      .container{
+        width: 100%;
+      }
+    }
+    #services-area{
+      div{
+        &.service-container{
+          width: 90%;
+          margin: 2rem auto;
+        }
+      }
+    }
+    #pricing-table{
+      .container{
+        width: 100%;
+      }
+      .pricing-container{
+        vertical-align: top;
+        margin: 2rem 0;
+        /*.pricing-price{
+          font: 800 1em 'Arial';
+        }*/
+      }
+    }
+    #team-2{
+      width: 100%;
+    }
+    .container {
+      width: 750px;
+      max-width: 100%;
+    }
+    .carousel-caption {
+      z-index: 10;
+      bottom: 3rem;
+      h3{
+        font-size: 2em;
+        padding-bottom: 20px;
+      }
+      p{
+        font-size: 1.5em;
+        padding-bottom: 20px;
+      }
+    }
+    #featured-training{
+      .title-training{
+        font: 600 1.5em 'Poppins';
+        color: #ffffff;
+        height: 100%;
+        display: block;
+        .title-training-text{
+          display: block;
+          //margin-top: 2rem;
+          font: 2em 'Poppins';
+        }
+      }
+    }
+    #featured-webdev{
+      /* The image used */
+      background-image: url("../img/webdevelopment1.jpg");
+
+      /* Set a specific height */
+      height: 500px;
+      padding: 3rem 0;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      .row{
+        margin: 0;
+        .title-webdev{
+          height: 80%;
+          display: block;
+          img{
+            height: auto;
+            width: 60%;
+          }
+          h1{
+            font: 800 2.5rem 'Poppins';
+            color: #ffffff;
+          }
+        }
+      }
+    }
+    #webdev-welcome{
+      width: 90%;
+      margin: 15rem auto 2rem;
+      div{
+        h1{
+          color: $black;
+          span{
+            text-transform: uppercase;
+            &.webdev-welcome-title{
+              font: 800 2.5em 'Raleway';
+            }
+            &.webdev-welcome-subtitle{
+              font: 1.9em 'Raleway';
+            }
+            &.color-red{
+              color: $red;
+            }
+          }
+        }
+        h2{
+          color: $black;
+          margin-bottom: 3rem;
+          .webdev-welcome-subtitle{
+            font: 1em 'Poppins';
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 769px) {
+    #footer-con{
+      #links-con{
+        aside{
+          img{
+            display: inline;
+          }
+          width: 90%;
+        }
+      }
+    }
+    #myCarousel{
+      .page-btn{
+        .btn{
+          font: normal 1em 'Poppins';
+        }
+      }
+      .carousel-indicators li {
+        max-width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin-right: 5px;
+        margin-left: 5px;
+      }
+      /* Carousel base class */
+      .carousel {
+        margin-bottom: 4rem;
+      }
+      /* Since positioning the image, we need to help out the caption */
+      .carousel-caption {
+        h3{
+          font-size: 1.5em;
+          padding: 15px 0 15px 0;
+        }
+        p{
+          font-size: 1em;
+          padding-bottom: 15px;
+        }
+      }
+    }
+    #pricing-table{
+      .pricing-container{
+        vertical-align: 0;
+        width: 90%;
+        .pricing-price{
+          font: 800 1.5em 'Poppins';
+        }
+        .pricing-display{
+          display: block;
+        }
+      }
+    }
+    .container {
+      width: 750px;
+      max-width: 100%;
+    }
+    .carousel-caption {
+      z-index: 10;
+      bottom: 3rem;
+      h3{
+        font-size: 2em;
+        padding-bottom: 20px;
+      }
+      p{
+        font-size: 1.5em;
+        padding-bottom: 20px;
+      }
+    }
+    #featured-webdev{
+      /* The image used */
+      background-image: url("../img/webdevelopment1.jpg");
+
+      /* Set a specific height */
+      height: 500px;
+      padding: 3rem 0;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      .row{
+        margin: 0;
+        .title-webdev{
+          height: 80%;
+          display: block;
+          img{
+            height: auto;
+            width: 100%;
+          }
+          h1{
+            font: 800 2rem 'Poppins';
+            color: #ffffff;
+          }
+        }
+      }
+    }
+    #webdev-welcome{
+      margin-top: 20rem;
+      div{
+        h1{
+          color: $black;
+          span{
+            text-transform: uppercase;
+            &.webdev-welcome-title{
+              font: 800 2em 'Raleway';
+            }
+            &.webdev-welcome-subtitle{
+              font: 1.9em 'Raleway';
+            }
+            &.color-red{
+              color: $red;
+            }
+          }
+        }
+        h2{
+          color: $black;
+          margin-bottom: 3rem;
+          .webdev-welcome-subtitle{
+            font: 1em 'Poppins';
+          }
+        }
+      }
+    }
+    #webdev-Carousel{
+      .carousel-inner{
+        .carousel-item{
+          .row{
+            .carousel-caption{
+              h3{
+                width: 80%;
+              }
+            }
+          }
+        }
+        .template-url{
+          display: none;
+        }
+      }
+    }
+  }
+
+
+  @media (max-width: 480px) {
+    #featured-about{
+      .title-about{
+        font: bold 4em 'Poppins';
+        .title-text{
+          display: block;
+          margin-top: 0;
+        }
+      }
+    }
+    #featured-training{
+      .title-training{
+        font: bold 4em 'Poppins';
+        .title-training-text{
+          display: block;
+          margin-top: 0;
+        }
+      }
+    }
+    #services-area{
+      div{
+        &.service-container{
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+    .container {
+      max-width: 100%;
+    }
+    .carousel-caption {
+      z-index: 10;
+      bottom: 3rem;
+      h3{
+        font-size: 1.75em;
+        padding-bottom: 20px;
+      }
+      p{
+        font-size: 1.25em;
+        padding-bottom: 20px;
+      }
+    }
+    #contact-area{
+      #location{
+        font-size: 1.5em;
+      }
+      .location-separator{
+        display: none;
+      }
+    }
+    #consult-area{
+      #com-question{
+        font-size: 1.5em;
+      }
+      .com-question-red{
+        font-size: 1.5em;
+      }
+      .location-separator{
+        display: none;
+      }
+    }
+    #training-3 {
+      .row {
+        .col-lg-4 {
+          img {
+            width: 80%;
+            height: auto;
+            border: 2px solid $red;
+          }
+        }
+      }
+    }
+    #featured-training{
+      .title-training{
+        font: 600 1em 'Poppins';
+        color: #ffffff;
+        height: 100%;
+        display: block;
+        .title-training-text{
+          display: block;
+          //margin-top: 2rem;
+          font: 2em 'Poppins';
+        }
+      }
+    }
+    #featured-webdev{
+      /* The image used */
+      background-image: url("../img/webdevelopment1.jpg");
+
+      /* Set a specific height */
+      height: 500px;
+      padding: 3rem 0;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      .row{
+        margin: 0;
+        .title-webdev{
+          height: 80%;
+          display: block;
+          img{
+            height: auto;
+            width: 100%;
+          }
+          h1{
+            font: 800 2rem 'Poppins';
+            color: #ffffff;
+          }
+        }
+      }
+    }
+    #webdev-welcome{
+      margin-top: 5rem;
+      div{
+        h1{
+          color: $black;
+          span{
+            text-transform: uppercase;
+            &.webdev-welcome-title{
+              font: 800 2em 'Raleway';
+            }
+            &.webdev-welcome-subtitle{
+              font: 1.9em 'Raleway';
+            }
+            &.color-red{
+              color: $red;
+            }
+          }
+        }
+        h2{
+          color: $black;
+          margin-bottom: 3rem;
+          .webdev-welcome-subtitle{
+            font: 1em 'Poppins';
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 380px) {
+    #featured-about{
+      padding: 1rem 0;
+    }
+    #featured-training{
+      padding: 1rem 0;
+    }
+    #consult-area{
+      #consult-form{
+        #consultForm{
+          #tab-name{
+            display: none;
+          }
+          #mobile-name{
+            display: block;
+          }
+        }
+      }
+      #consult-question{
+        float: right;
+      }
+      h2{
+        font: bold 1.75em 'Arial';
+        margin: 0.5rem auto;
+        color: #ffffff;
+      }
+      p{
+        font-size: 1em;
+        color: #000000;
+      }
+    }
+    #featured-webdev{
+      /* The image used */
+      background-image: url("../img/webdevelopment1.jpg");
+
+      /* Set a specific height */
+      height: 500px;
+      padding: 3rem 0;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      .row{
+        margin: 0;
+        .title-webdev{
+          height: 80%;
+          display: block;
+          img{
+            height: auto;
+            width: 100%;
+          }
+          h1{
+            font: 800 2rem 'Poppins';
+            color: #ffffff;
+          }
+        }
+      }
+    }
+    #webdev-welcome{
+      margin-top: 3rem;
+      div{
+        h1{
+          color: $black;
+          span{
+            text-transform: uppercase;
+            &.webdev-welcome-title{
+              font: 800 1.5em 'Raleway';
+            }
+            &.webdev-welcome-subtitle{
+              font: 1.9em 'Raleway';
+            }
+            &.color-red{
+              color: $red;
+            }
+          }
+        }
+        h2{
+          color: $black;
+          margin-bottom: 3rem;
+          .webdev-welcome-subtitle{
+            font: 1em 'Poppins';
+          }
+        }
+      }
+    }
+  }
+
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
